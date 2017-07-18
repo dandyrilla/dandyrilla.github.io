@@ -26,7 +26,7 @@ $ squeue
 147967     normal  Sukjun.calc  lab  R   0:05      1  node3
 ```
 
-현재 실행중인 작업을 중지시킬 필요가 있거나 작업을 잘못 제출하였을 때 작업을 삭제(job deletion)하려면 scancel라고 입력한 후 뒤에 취소할 작업 id를 적어주면 된다.
+현재 실행중인 작업을 중지시킬 필요가 있거나 작업을 잘못 제출하였을 때 작업을 삭제(job deletion)하려면 scancel라고 입력한 후 뒤에 취소할 작업의 고유번호(job id)를 적어주면 된다.
 
 ```
 $ scancel 147966
