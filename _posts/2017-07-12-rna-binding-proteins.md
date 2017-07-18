@@ -3,7 +3,7 @@ layout: post
 title: "RNA binding proteins"
 description: "Information on RNA binding proteins"
 date: 2017-07-12
-tags: [샘플 포스트, 테스트, 스타일]
+tags: [RNA binding protein, RBP, RNA, CLIP]
 comments: true
 share: true
 ---
