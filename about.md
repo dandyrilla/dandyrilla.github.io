@@ -3,6 +3,15 @@ title: About
 permalink: /about/
 ---
 
+## Profile
+
+* Sukjun Kim (birth: 23 June 1987)
+* Ph.D student in Seoul National University, Korea
+
+
+-----
+
+
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
 ## Features
