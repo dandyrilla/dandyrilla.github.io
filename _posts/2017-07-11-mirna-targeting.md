@@ -65,3 +65,4 @@ share: true
 
 * [Mark Kay (Stanford University)](http://kaylab.stanford.edu/)
 
+* [Elisa Izaurralde (Max Planck Institute)](http://www.eb.tuebingen.mpg.de/research/departments/biochemistry.html)
