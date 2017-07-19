@@ -10,9 +10,9 @@ share: true
 
 ## Review Papers
 
-* 2008-02, Filipowicz, Nature Reviews Genetics, [**Mechanisms of post-transcriptional regulation by microRNAs: are the answers in sight?**](): desc
-
-* 2004-01, Bartel, Cell, [**MicroRNAs: Genomics, Biogenesis, Mechanism, and Function**](https://www.ncbi.nlm.nih.gov/pubmed/14744438): desc
+* 2009-01, Bartel, Cell, [**MicroRNAs: Target Recognition and Regulatory Functions**](https://www.ncbi.nlm.nih.gov/pubmed/19167326)
+* 2008-02, Filipowicz, Nature Reviews Genetics, [**Mechanisms of post-transcriptional regulation by microRNAs: are the answers in sight?**]()
+* 2004-01, Bartel, Cell, [**MicroRNAs: Genomics, Biogenesis, Mechanism, and Function**](https://www.ncbi.nlm.nih.gov/pubmed/14744438)
 
 
 ## Research Papers
