@@ -26,13 +26,16 @@ share: true
   4. Positioning within the 3'UTR at least 15 nt from the stop codon.
   5. Positioning away from the center of long UTRs.
 
+
 * First
   1. au First
   2. Second (g)
-  
+
+
 * First
   1. First
   2. Second (g)
+
 
 ### 순서가 없는 리스트
 
