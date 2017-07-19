@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RNA binding proteins"
-description: "Introduction of review/research papers and research groups on RBPs"
+description: "Review/research papers and research groups on RBPs"
 date: 2017-07-12
 tags: [RNA binding protein, RBP, RNA, CLIP]
 comments: true
