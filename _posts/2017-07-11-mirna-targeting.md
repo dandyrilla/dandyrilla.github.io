@@ -54,8 +54,12 @@ share: true
 ## Research Groups
 
 * [David Bartel (MIT)](http://bartellab.wi.mit.edu/)
+
 * [V. Narry Kim (Seoul National University)](http://www.narrykim.org)
-* [Rachel Green (Johns Hopkins University)](http://pages.jh.edu/~greenlab): [HHMI](http://www.hhmi.org/scientists/rachel-green)
+
+* [Rachel Green (Johns Hopkins University)](http://pages.jh.edu/~greenlab)
+
 * [Antonio Giraldez (Yale University)](http://www.giraldezlab.org)
+
 * [Mark Kay (Stanford University)](http://kaylab.stanford.edu/)
 
