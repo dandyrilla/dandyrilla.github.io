@@ -23,9 +23,9 @@ share: true
 
 ## Research Papers
 
-* 2012-04, Djuranovic, Science, [**miRNA-Mediated Gene Silencing by Translational Repression Followed by mRNA Deadenylation and Decay**](https://www.ncbi.nlm.nih.gov/pubmed/22499947): Rachel Green lab의 논문
+* 2012-04, Djuranovic, Science, [**miRNA-Mediated Gene Silencing by Translational Repression Followed by mRNA Deadenylation and Decay**](https://www.ncbi.nlm.nih.gov/pubmed/22499947): Drosophila S2세포에서 transaltional repression 관찰. Rachel Green's lab.
 
-* 2012-04, Bazzini, Science, [**Ribosome Profiling Shows That miR-430 Reduces Translation Before Causing mRNA Decay in Zebrafish**](https://www.ncbi.nlm.nih.gov/pubmed/22422859): Antonio Giraldez lab의 논문
+* 2012-04, Bazzini, Science, [**Ribosome Profiling Shows That miR-430 Reduces Translation Before Causing mRNA Decay in Zebrafish**](https://www.ncbi.nlm.nih.gov/pubmed/22422859): zebrafish embryo에서 miR-430에 의한 translational repression. Antonio Giraldez's lab
 
 * 2010-08, Guo, Nature, [**Mammalian microRNAs predominantly act to decrease target mRNA levels**](http://www.nature.com/articles/nature09267): 동물 miRNA는 translational repression보다는 주로 mRNA degradation을 통해 작용한다. mRNA-Seq 데이터와 RPF-Seq 데이터를 같이 비교하여 protein output이 감소하는 원인이 어떤 조절단계에 있었는지를 알아내었다.
 
