@@ -27,6 +27,8 @@ share: true
 
 * 2012-04, Bazzini, Science, [**Ribosome Profiling Shows That miR-430 Reduces Translation Before Causing mRNA Decay in Zebrafish**](https://www.ncbi.nlm.nih.gov/pubmed/22422859): Zebrafish embryo에서 miR-430에 의한 gene silencing이 translational repression에 의해 촉발된다. Antonio Giraldez's lab의 연구 결과.
 
+* 2011-10, Garcia, NSMB, [**Weak seed-pairing stability and high target-site abundance decrease the proficiency of lsy-6 and other microRNAs**](https://www.ncbi.nlm.nih.gov/pubmed/21909094): miRNA의 기능은 target site가 적을수록, seed pairing이 안정될수록 더 높아진다. (TA and SPS in microRNA targeting)
+
 * 2010-08, Guo, Nature, [**Mammalian microRNAs predominantly act to decrease target mRNA levels**](http://www.nature.com/articles/nature09267): 동물 miRNA는 translational repression보다는 주로 mRNA degradation을 통해 작용한다. mRNA-Seq 데이터와 RPF-Seq 데이터를 같이 비교하여 protein output이 감소하는 원인이 어떤 조절단계에 있었는지를 알아내었다.
 
 * 2010-06, Shin, Molecular Cell, [**Expanding the MicroRNA Targeting Code, Functional Sites with Centered Pairing**](https://www.ncbi.nlm.nih.gov/pubmed/20620952): 새로운 miRNA targeting rule인 **centered pairing**을 찾아냈다. miRNA의 5'end를 기준으로 4-14번째 또는 5-15번째의 nucleotides가 target mRNA와 결합하는 경우이다. 11종류 miRNA transfection 데이터를 분석하여 얻은 결과이다.
