@@ -26,25 +26,6 @@ share: true
   4. Positioning within the 3'UTR at least 15 nt from the stop codon.
   5. Positioning away from the center of long UTRs.
 
-* Mayr
-
-* Baek
-
-
-
-1. list
-  * wow
-  * abc
-  * dfe
-
-2. good
-  * a한글
-  * 세부항목
-
-3. 밝혀내었다.
-  * good
-  * nice
-  * work
 
 
 * Unordered list 1
@@ -56,3 +37,11 @@ share: true
   2. Ordered list E
 * Unordered list 3
 
+
+
+* 비순서 항목
+  1. 순서 항목
+  2. 순서 항목
+* 한글로 할때만
+  1. 제대로 되지 않습니다
+  2. 점을 찍어볼까요.
