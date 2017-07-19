@@ -35,11 +35,11 @@ share: true
 Research Groups
 -----
 
-* [Hentze group, EMBL](https://www.embl.de/research/units/directors_research/hentze/): RNA biology, Metabolism and molecular medicine. [mRNA interactome capture](https://www.ncbi.nlm.nih.gov/pubmed/22658674) (Castello *et al*., Cell, 2012), [RBDmap](https://www.ncbi.nlm.nih.gov/pubmed/27453046) (Castello *et al*., Molecular Cell, 2016), [enigmRBPs](https://www.ncbi.nlm.nih.gov/pubmed/26632259) (Beckmann *et al*., Nature Communications, 2015), REM networks (Hentze & Preiss, 2010)
+* [Matthias Hentze (EMBL)](https://www.embl.de/research/units/directors_research/hentze/): RNA biology, Metabolism and molecular medicine. [mRNA interactome capture](https://www.ncbi.nlm.nih.gov/pubmed/22658674) (Castello *et al*., Cell, 2012), [RBDmap](https://www.ncbi.nlm.nih.gov/pubmed/27453046) (Castello *et al*., Molecular Cell, 2016), [enigmRBPs](https://www.ncbi.nlm.nih.gov/pubmed/26632259) (Beckmann *et al*., Nature Communications, 2015), REM networks (Hentze & Preiss, 2010)
 
-* [Chaolin Zhang, Columbia University](https://zhanglab.c2b2.columbia.edu): Robert Darnell lab에서 postdoc으로 지내며 Rbfox CLIP-Seq 데이터로부터 더욱 정확한 crosslinking sites를 찾아내는 연구를 수행하였고, 지금은 Columbia University에서 신경계에서의 RNA regulatory network에 대해 연구하고 있다. 
+* [Chaolin Zhang (Columbia University)](https://zhanglab.c2b2.columbia.edu): Robert Darnell lab에서 postdoc으로 지내며 Rbfox CLIP-Seq 데이터로부터 더욱 정확한 crosslinking sites를 찾아내는 연구를 수행하였고, 지금은 Columbia University에서 신경계에서의 RNA regulatory network에 대해 연구하고 있다. 
 
-* [Robert Darnell, The Rockefeller University](http://lab.rockefeller.edu/darnell/)
+* [Robert Darnell (The Rockefeller University)](http://lab.rockefeller.edu/darnell/)
 
 
 Tips for searching
