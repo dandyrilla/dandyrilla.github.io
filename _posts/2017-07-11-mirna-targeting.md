@@ -45,13 +45,14 @@ share: true
   * good
   * nice
   * work
-  
-  
+
+
 * Unordered list 1
   1. Ordered list A
-  1. Ordered list B
-  1. Ordered list C
+  2. Ordered list B
+  3. Ordered list C
 * Unordered list 2
   1. Ordered list D
   2. Ordered list E
 * Unordered list 3
+
