@@ -27,7 +27,7 @@ share: true
 
 * 2015-08, Agarwal, Bartel, eLife, [**Predicting effective microRNA target sites in mammalian mRNAs**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4532895): TargetScan v7.0
 
-* 2012-04, Djuranovic, Science, [**miRNA-Mediated Gene Silencing by Translational Repression Followed by mRNA Deadenylation and Decay**](https://www.ncbi.nlm.nih.gov/pubmed/22499947): Drosophila S2 세포에서 miRNA에 의한 transaltional repression 관찰. Protein level을 측정할 수 있는 luciferase reporter assay와 RNA level을 측정할 수 있는 qRT-PCR을 이용하여 translational repression은 항상 mRNA degradation이 일어나기 전에 관찰되는것을 확인했다. Rachel Green's lab의 연구 결과.
+* 2012-04, Djuranovic, Science, [**miRNA-Mediated Gene Silencing by Translational Repression Followed by mRNA Deadenylation and Decay**](https://www.ncbi.nlm.nih.gov/pubmed/22499947): Drosophila S2 세포에서 miRNA에 의한 transaltional repression 관찰. Protein level을 측정할 수 있는 luciferase reporter assay와 RNA level을 측정할 수 있는 qRT-PCR을 이용하여 mRNA degradation이 일어나기 전에 translational repression이 일어나는것을 확인했다. Rachel Green's lab의 연구 결과.
 
 * 2012-04, Bazzini, Science, [**Ribosome Profiling Shows That miR-430 Reduces Translation Before Causing mRNA Decay in Zebrafish**](https://www.ncbi.nlm.nih.gov/pubmed/22422859): Zebrafish embryo에서 miR-430에 의한 gene silencing이 translational repression에 의해 촉발된다. Antonio Giraldez's lab의 연구 결과.
 
