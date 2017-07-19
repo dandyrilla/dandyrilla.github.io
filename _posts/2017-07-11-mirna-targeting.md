@@ -36,10 +36,12 @@ share: true
   * wow
   * abc
   * dfe
+
 2. good
   * a한글
   * 세부항목
-3. 한글로는
-  * good
+
+3. 밝혀내었다.
+  * good
   * nice
   * work
