@@ -5,22 +5,27 @@ permalink: /about/
 
 ## Profile
 
-* Sukjun Kim (birth: 23 June 1987)
-* Ph.D student in Seoul National University, Korea
+Name
+: 김석준, Sukjun Kim
+
+E-mail
+: dandyrilla@naver.com
+
+Github
+: [github.com/dandyrilla](https://github.com/dandyrilla)
 
 
------
+## Technical Skills
 
+Frontend
+: HTML5, Javascript, jQuery, CSS
 
-You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
+Backend
+: Python, R, C++
 
-## Features
+Others
+: Adobe Photoshop, Adobe Illustrator
 
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
 
 
 ## Installation
