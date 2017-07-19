@@ -38,5 +38,7 @@ share: true
 ## Research Groups
 
 * [David Bartel (MIT)](http://bartellab.wi.mit.edu/)
-* []
+* [Rachel Green (Johns Hopkins University School of Medicine)](): [HHMI](http://www.hhmi.org/scientists/rachel-green)
+* [Antonio Giraldez (Yale University)](http://www.giraldezlab.org)
+
 
