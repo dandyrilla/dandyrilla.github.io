@@ -26,18 +26,25 @@ share: true
   4. Positioning within the 3'UTR at least 15 nt from the stop codon.
   5. Positioning away from the center of long UTRs.
 
-* First
+* 한글제목이어도
   1. AU-rich nucleotide composition near the site.
   2. Second
 
-* 2007, First
-  1. AU-rich nucleotide composition near the site.
+* 한글제목이어도
+  1. AU rich nucleotide composition near the site.
   2. Second
 
-* 2007-07, First
-  1. AU-rich nucleotide composition near the site.
+* 한글제목이어도
+  1. AU rich nucleotide composition near the site
   2. Second
 
+* 한글제목이어도
+  1. AU
+  2. Second
+  
+* 한글제목이어도
+  1. AU
+  2. Second (Sukjun Kim)
 
 
 ### 순서가 없는 리스트
