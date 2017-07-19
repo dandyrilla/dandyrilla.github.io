@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 ---
 
-## Profile
+### Profile
 
 Name
 : 김석준, Sukjun Kim
@@ -15,7 +15,7 @@ Github
 : [github.com/dandyrilla](https://github.com/dandyrilla)
 
 
-## Technical Skills
+### Technical Skills
 
 Frontend
 : HTML5, Javascript, jQuery, CSS
