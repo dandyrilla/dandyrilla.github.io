@@ -28,13 +28,13 @@ share: true
 
 
 * First
-1. au First
-2. Second (g)
+  1. au First
+  2. Second (g)
 
 
 * First
-1. First
-2. Second (g)
+  1. First
+  2. Second (g)
 
 
 ### 순서가 없는 리스트
