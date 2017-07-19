@@ -35,6 +35,8 @@ share: true
 Research Groups
 -----
 
+* [Hentze group, EMBL](https://www.embl.de/research/units/directors_research/hentze/): RNA biology, Metabolism and molecular medicine
+
 * [Chaolin Zhang, Columbia University](https://zhanglab.c2b2.columbia.edu): Robert Darnell lab에서 postdoc으로 지내며 Rbfox CLIP-Seq 데이터로부터 더욱 정확한 crosslinking sites를 찾아내는 연구를 수행하였고, 지금은 Columbia University에서 신경계에서의 RNA regulatory network에 대해 연구하고 있다. 
 
 * [Robert Darnell, The Rockefeller University](http://lab.rockefeller.edu/darnell/)
