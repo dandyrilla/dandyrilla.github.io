@@ -23,6 +23,8 @@ share: true
 
 ## Research Papers
 
+* 2016-10, Kim, Nature Genetics, [**General rules for functional microRNA targeting**](https://www.ncbi.nlm.nih.gov/pubmed/27776116): 현재까지 알려졌던 4종류의 canonical site types(8mer, 7mer-m8, 7mer-A1, 6mer)외에 추가적인 non-canonical site types(NSTs)을 발견하였다. 인간의 mRNA sequence와 miRNA sequence 사이에 일어날 수 있는 가능한 모든 base-pairing 경우에 대해 통계적 테스트를 거쳐 NSTs를 찾아내었다.
+
 * 2015-08, Agarwal, Bartel, eLife, [**Predicting effective microRNA target sites in mammalian mRNAs**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4532895): TargetScan v7.0
 
 * 2012-04, Djuranovic, Science, [**miRNA-Mediated Gene Silencing by Translational Repression Followed by mRNA Deadenylation and Decay**](https://www.ncbi.nlm.nih.gov/pubmed/22499947): Drosophila S2 세포에서 miRNA에 의한 transaltional repression 관찰. Protein level을 측정할 수 있는 luciferase reporter assay와 RNA level을 측정할 수 있는 qRT-PCR을 이용하여 translational repression은 항상 mRNA degradation이 일어나기 전에 관찰되는것을 확인했다. Rachel Green's lab의 연구 결과.
