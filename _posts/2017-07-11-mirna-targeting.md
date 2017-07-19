@@ -14,7 +14,7 @@ share: true
 
 * 2009-01, Bartel, Cell, [**MicroRNAs: Target Recognition and Regulatory Functions**](https://www.ncbi.nlm.nih.gov/pubmed/19167326)
 
-* 2008-02, Filipowicz, Nature Reviews Genetics, [**Mechanisms of post-transcriptional regulation by microRNAs: are the answers in sight?**]()
+* 2008-02, Filipowicz, Nature Reviews Genetics, [**Mechanisms of post-transcriptional regulation by microRNAs: are the answers in sight?**](https://www.ncbi.nlm.nih.gov/pubmed/18197166)
 
 * 2007-05, Nilsen, Trends in Genetics, [**Mechanisms of microRNA-mediated gene regulation in animal cells**](https://www.ncbi.nlm.nih.gov/pubmed/17368621)
 
@@ -23,9 +23,9 @@ share: true
 
 ## Research Papers
 
-* 2012-04, Djuranovic, Science, [**miRNA-Mediated Gene Silencing by Translational Repression Followed by mRNA Deadenylation and Decay**](https://www.ncbi.nlm.nih.gov/pubmed/22499947): Drosophila S2세포에서 transaltional repression 관찰. Rachel Green's lab.
+* 2012-04, Djuranovic, Science, [**miRNA-Mediated Gene Silencing by Translational Repression Followed by mRNA Deadenylation and Decay**](https://www.ncbi.nlm.nih.gov/pubmed/22499947): Drosophila S2 세포에서 miRNA에 의한 transaltional repression 관찰. Protein level을 측정할 수 있는 luciferase reporter assay와 RNA level을 측정할 수 있는 qRT-PCR을 이용하여 translational repression은 항상 mRNA degradation이 일어나기 전에 관찰되는것을 확인했다. Rachel Green's lab의 연구 결과.
 
-* 2012-04, Bazzini, Science, [**Ribosome Profiling Shows That miR-430 Reduces Translation Before Causing mRNA Decay in Zebrafish**](https://www.ncbi.nlm.nih.gov/pubmed/22422859): zebrafish embryo에서 miR-430에 의한 translational repression. Antonio Giraldez's lab
+* 2012-04, Bazzini, Science, [**Ribosome Profiling Shows That miR-430 Reduces Translation Before Causing mRNA Decay in Zebrafish**](https://www.ncbi.nlm.nih.gov/pubmed/22422859): Zebrafish embryo에서 miR-430에 의한 gene silencing이 translational repression에 의해 촉발된다. Antonio Giraldez's lab의 연구 결과.
 
 * 2010-08, Guo, Nature, [**Mammalian microRNAs predominantly act to decrease target mRNA levels**](http://www.nature.com/articles/nature09267): 동물 miRNA는 translational repression보다는 주로 mRNA degradation을 통해 작용한다. mRNA-Seq 데이터와 RPF-Seq 데이터를 같이 비교하여 protein output이 감소하는 원인이 어떤 조절단계에 있었는지를 알아내었다.
 
