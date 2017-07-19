@@ -51,13 +51,8 @@ share: true
   2. Second (Sukjun Kim)
 
 * First
-  1. au
+  1. au First
   2. Second (Sukjun Kim)
-
-* First
-  1. au First
-  2. Second (g)
-
 
 ### 순서가 없는 리스트
 
