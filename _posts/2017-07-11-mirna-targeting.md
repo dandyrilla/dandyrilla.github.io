@@ -27,22 +27,19 @@ share: true
   5. Positioning away from the center of long UTRs.
 
 
+* First
+  1. First
+  2. Second
 
-* Unordered list 가 1
-  1. Ordered list A
-  2. Ordered list B
-  3. Ordered list C
-* Unordered list 2
-  1. Ordered list D
-  2. Ordered list E
-* Unordered list 3
+* 첫번째
+  1. First
+  2. Second
 
+* First
+  1. 첫번째
+  2. 두번째
 
-* start 비순서 항목. end.
-  1. abc 순서 항목
-  2. wow 순서 항목
-  3. 세번째는 제대로 떨어지네요
-  4. 네번째도요
-* 한글로 할때만
-  1. 제대로 되지 않습니다
-  2. 점을 찍어볼까요.
+* 큰 첫번째
+  1. 첫번째
+  2. 두번째
+
