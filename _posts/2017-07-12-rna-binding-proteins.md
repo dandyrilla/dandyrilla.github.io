@@ -9,8 +9,7 @@ share: true
 ---
 
 
-Review Papers
------
+## Review Papers
 
 * 2017-03, Lewis, Nature Reviews MCB, [**RNA modifications and structures cooperate to guide RNA-protein interactions**](https://www.nature.com/nrm/journal/v18/n3/full/nrm.2016.163.html): RNA와 RBP와의 상호작용에 있어 RNA sequence 외에도 RNA modification이나 RNA secondary structure가 영향을 줄 수 있다. 그리고 이러한 요인들은 상호 의존적으로 동적으로 변화하면서 영향을 미친다.
 
@@ -23,8 +22,7 @@ Review Papers
 * 2002-03, Dreyfuss, Nature Reviews MCB, [**Messenger-RNA-binding proteins and the messages they carry**](http://www.nature.com/nrm/journal/v3/n3/full/nrm760.html): HnRNP and mRNP proteins, mRNA splicing, NMD
 
 
-Research Papers
------
+## Research Papers
 
 * 2016-10, Taliaferro, Molecular Cell, [**RNA Sequence Context Effects Measured In Vitro Predict In Vivo Protein Binding and Regulation**](https://doi.org/10.1016/j.molcel.2016.08.035): RBP-binding motifs 중 대부분이 RBP에 의해 결합되지 않는 현상이 종종 관찰된다. 왜냐하면 RNA secondary structure가 RBP binding에 큰 영향을 미치기 때문이다. RNA 상에 RBP-binding motif가 존재하더라도 이 부분이 강한 hairpin structure의 stem-loop 구조 속에 숨어있다면 이는 RBP가 제대로 결합할 수 없다.
 
