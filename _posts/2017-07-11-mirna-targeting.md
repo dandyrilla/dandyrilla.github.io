@@ -11,6 +11,8 @@ share: true
 
 * 2011-02, Huntzinger, Nature Reviews Genetics, [**Gene silencing by microRNAs, contributions of translational repression and mRNA decay**](https://www.ncbi.nlm.nih.gov/pubmed/21245828)
 
+* 2010-10, Garzon, Nature Reviews Drug Discovery, [**Targeting microRNAs in cancer: rationale, strategies and challenges**](http://www.nature.com/nrd/journal/v9/n10/full/nrd3179.html)
+
 * 2009-01, Bartel, Cell, [**MicroRNAs: Target Recognition and Regulatory Functions**](https://www.ncbi.nlm.nih.gov/pubmed/19167326)
 
 * 2008-02, Filipowicz, Nature Reviews Genetics, [**Mechanisms of post-transcriptional regulation by microRNAs: are the answers in sight?**](https://www.ncbi.nlm.nih.gov/pubmed/18197166)
