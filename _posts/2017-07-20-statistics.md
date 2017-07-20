@@ -13,7 +13,7 @@ comments: true
 
 줄 추가
 
-|   | 판정 |
 |   | N   | P   |
+|---|---|---|
 | N | TN  | FN  |
 | P | FP  | TP  |
