@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Data visualization"
-description: "Data visualization"
+title: Data visualization
+description: 데이터 시각화에 대해 알아봅니다.
 tags: [data visualization, datavis]
 comments: true
 share: true
@@ -20,5 +20,3 @@ Company
 -----
 
 * [Visual Cinnamon](https://www.visualcinnamon.com/): Nadieh Bremer, Amsterdam, Netherlands
-
-
