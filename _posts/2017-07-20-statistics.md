@@ -9,7 +9,7 @@ comments: true
 
 ### 통계적 결정
 
-우리는 수 많은 수정을 하였습니다.
+<span style="color:red">우리는 수 많은 수정을 하였습니다.</span>
 
 여기서 따로 수정했네요.
 
