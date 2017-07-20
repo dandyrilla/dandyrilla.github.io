@@ -13,9 +13,7 @@ share: true
 Can't locate Math/CDF.pm in @INC (@INC contains ...)
 ```
 
-perl이 [Math-CDF](http://search.cpan.org/~callahan/Math-CDF-0.1/CDF.pm)라는 모듈을 불러들이는 데 실패했다는 메시지였다. 그래서 이 모듈을 찾아 설치하려고 하였다. README 파일에는 다음과 같이 차례대로 실행하여 설치하라는 안내가 있었다.[^1]
-
-[^1]: 다음의 페이지에서 확인 가능하다. <http://en.wikipedia.org/wiki/Syntax_highlighting> URL 주소를 감싸면 알아서 링크가 만들어진다.
+perl이 [Math-CDF](http://search.cpan.org/~callahan/Math-CDF-0.1/CDF.pm)라는 모듈을 불러들이는 데 실패했다는 메시지였다. 그래서 이 모듈을 찾아 설치하려고 하였다. README 파일에는 다음과 같이 차례대로 실행하여 설치하라는 안내가 있었다.
 
 ```
 perl Makefile.pl
