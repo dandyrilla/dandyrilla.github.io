@@ -1,12 +1,11 @@
 ---
 layout: post
 title: microRNA targeting
-description: Review/research papers and research groups on miRNA targeting
+description: miRNA targeting과 관련된 리뷰 논문 및 연구 논문들을 살펴봅니다.
 tags: [microRNA, miRNA, microRNA targeting, miRNA targeting]
 comments: true
 share: true
 ---
-
 
 ## Review Papers
 
