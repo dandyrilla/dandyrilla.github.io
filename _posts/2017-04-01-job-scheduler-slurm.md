@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Usage of job scheduler SLURM
+title: Job scheduler SLURM
 description: 작업 스케쥴러 SLURM의 사용법을 알아봅니다.
 tags: [sge, slurm, job scheduler]
 comments: true
