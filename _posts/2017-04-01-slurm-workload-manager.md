@@ -38,7 +38,16 @@ $ scancel 147966
 
 ### 2. 작업 스크립트 작성하기
 
-작업을 제출할 때에는 일정한 형식이 따르는 스크립트를 작성하여 넣어주어야 한다.
+sbatch 명령어를 통해 작업을 제출할 때 뒤에 작업 스크립트의 이름만을 적어주었다. 그렇다면 각종 옵션들은 어디에 적어줄까? 바로 작업 스크립트 내에 `#SBATCH`의 뒷 부분에 명시해줄 수 있다. bash 쉘에서는 맨 처음에 주석 기호인 `#`를 썼기 때문에 주석으로 해석하지만, slurm은 이를 sbatch의 옵션임을 인지한다. 다음은 파이썬 프로그램 하나를 돌리는 작업을 제출하기 위한 작업 스크립트 `job_script.sh`이다.
+
+```bash
+#!/bin/bash
+
+#SBATCH -J Sukjun.calc   # job name
+#SBATCH -o temp/Sukjun.calc.%j.out   # standard output and error log
+
+python calculate.py
+```
 
 
 
