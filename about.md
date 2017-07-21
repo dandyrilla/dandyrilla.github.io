@@ -24,14 +24,15 @@ Github
 
 * Sung-Min Ahn, Se Jin Jang, Ju Hyun Shim, Deokhoon Kim, ... Daehyun Baek, Farhan Haq, Adnan Ahmed Ansari, Sun Young Lee, Sung-Min Chun, Seongmin Choi, Hyun-Jeung Choi, Jongkyu Kim, **Sukjun Kim**, ... and Gu Kong (2014). [Genomic portrait of resectable hepatocellular carcinomas: Implications of RB1 and FGF19 aberrations for patient stratification.](https://www.ncbi.nlm.nih.gov/pubmed/24798001) *Hepatology*
 
+
 ### Technical Skills
 
-Frontend
-: HTML5, Javascript, jQuery, CSS
+Bioinformatics
+: RNA-Seq data analysis, RNA secondary structure prediction and visualization
 
-Backend
-: Python, R, C++
+Programming
+: Python, R, c++, HTML5, Javascript, jQuery, CSS
 
-Others
+Graphics
 : Adobe Photoshop, Adobe Illustrator
 
