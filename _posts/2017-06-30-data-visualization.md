@@ -8,15 +8,20 @@ share: true
 ---
 
 
-Research Groups
------
+### Research Groups
 
 * [The Gingras Laboratory](http://gingraslab.lunenfeld.ca/index.php): Tools for proteomics data, ProHits-Viz: webtool to improve visualization of protein interaction data (Nature Methods), Department of Molecular Genetics at the University of Toronto, The Lunenfeld-Tanenbaum Research Institute
 
 * [The Interaction Design Lab](https://idl.fh-potsdam.de/people/frank-heidmann/): Dr. Frank Heidmann, University of Applied Sciences Potsdam, Germany, Human-Computer Interaction
 
 
-Company
------
+### Company
 
 * [Visual Cinnamon](https://www.visualcinnamon.com/): Nadieh Bremer, Amsterdam, Netherlands
+
+* [Bocoup](https://bocoup.com/): Open Source Technology & Design Consulting
+
+
+### Other links
+
+* [OpenVisConf](https://openvisconf.com/)
