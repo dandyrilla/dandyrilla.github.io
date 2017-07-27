@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "오늘의 삽질 일기: 간헐적인 터미널 화면의 일시정지"
-description: "nfs 데몬이 정상적이지 않을 때 일어납니다. nfs 데몬을 재시작해 줌으로써 해결하였습니다."
+title: "TIL: 간헐적인 터미널 화면의 일시정지"
+description: "오늘의 삽질 일기: nfs 데몬이 정상적이지 않을 때 일어납니다. nfs 데몬을 재시작해 줌으로써 해결하였습니다."
 tags: [terminal, freeze, putty, nfs]
 comments: true
 share: true
