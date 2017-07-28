@@ -32,15 +32,19 @@ import scipy.stats
 obs = np.array([[n1, n2], [n3, n4]])
 chi2, p, dof, expected = scipy.stats.chi2_contingency(obs, correction=False)
 ```
-#### Ranksum test
+
+#### Two-sample K-S test / Ranksum test
+
 ```python
 import scipy.stats
 data1 = [1, 2, 3, 4]
 data2 = [2, 4, 6, 8]
-p = scipy.stats.ranksums(data1, data2)[1]
+p_ks = scipy.stats.ks_2samp(data1, data2)[1]
+p_rs = scipy.stats.ranksums(data1, data2)[1]
 ```
 
 #### Correlation coefficient
+
 ```python
 import numpy as np
 import scipy.stats
