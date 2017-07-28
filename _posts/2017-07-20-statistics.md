@@ -20,3 +20,30 @@ comments: true
 |---|---|---|
 | N | TN  | FN  |
 | P | FP  | TP  |
+
+
+
+### 파이썬으로 각종 통계 테스트 하기
+
+#### Chi-square test using 2x2 contingency table
+```python
+import numpy as np
+import scipy.stats
+obs = np.array([[n1, n2], [n3, n4]])
+chi2, p, dof, expected = scipy.stats.chi2_contingency(obs, correction=False)
+```
+#### Ranksum test
+```python
+import scipy.stats
+data1 = [1, 2, 3, 4]
+data2 = [2, 4, 6, 8]
+p = scipy.stats.ranksums(data1, data2)[1]
+```
+
+#### Correlation coefficient
+```python
+import numpy as np
+import scipy.stats
+r   = np.corrcoef(x, y)[0, 1]  # Pearson's corrleation coefficient
+rho = scipy.stats.spearmanr(x, y)[0]  # Spearman's rank correlation coefficient
+```
