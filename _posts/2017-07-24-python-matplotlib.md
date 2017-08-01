@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "파이썬 matplotlib 구워먹기"
-description: "matplotlib 사용법과 팁에 대해 자세히 알아봅니다."
+title: "파이썬 matplotlib 패키지"
+description: "matplotlib 사용법과 팁"
 share: true
 comments: true
 ---
@@ -24,5 +24,4 @@ x = np.linspace(0, 2*np.pi, 400)
 y = np.sin(x**2)
 
 ax = plt.subplots(2)
-
 ```

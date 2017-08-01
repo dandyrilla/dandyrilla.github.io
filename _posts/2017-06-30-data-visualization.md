@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data visualization
-description: 데이터 시각화에 대해 알아봅니다.
+description: 데이터 시각화
 tags: [data visualization, datavis]
 comments: true
 share: true
