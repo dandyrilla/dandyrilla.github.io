@@ -2,6 +2,7 @@
 layout: post
 title: "파이썬 matplotlib 패키지"
 description: "matplotlib 사용법과 팁"
+tags: [python, matplotlib]
 share: true
 comments: true
 ---

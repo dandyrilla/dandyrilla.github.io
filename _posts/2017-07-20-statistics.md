@@ -2,6 +2,7 @@
 layout: post
 title: 통계학
 description: 통계학
+tags: [statistics]
 share: true
 comments: true
 ---
