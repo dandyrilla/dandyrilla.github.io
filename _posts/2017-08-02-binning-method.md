@@ -44,7 +44,7 @@ def binning2(n, nbins):
 
 ```python
 >>> sizes2 = binning2(10, 3)
-print(sizes2)
+>>> print(sizes2)
 [4, 3, 3]
 ```
 
