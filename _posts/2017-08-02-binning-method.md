@@ -2,6 +2,7 @@
 layout: post
 title: "Equal-sized binning methods"
 description: "파이썬으로 일정한 크기를 갖는 구간을 나누는 방법들에 대해 설명합니다."
+tags: [python, binning]
 share: true
 comments: true
 ---
