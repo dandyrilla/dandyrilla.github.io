@@ -23,7 +23,7 @@ def cached(func):
     return wrapper
 
 @cached
-def calculate_intermediated_data(arg1, arg2, arg3):
+def calculate_intermediate_data(arg1, arg2, arg3):
     ## calculate someting
     return data
 ```
