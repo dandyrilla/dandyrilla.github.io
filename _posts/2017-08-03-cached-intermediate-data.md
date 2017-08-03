@@ -28,4 +28,4 @@ def calculate_intermediated_data(arg1, arg2, arg3):
     return data
 ```
 
-위와 같이 cached라는 데코레이터를 만들어 보았다. 이는 리턴값 자체를 pickle로 dump시켜 cached라는 폴더 안에다가 함수 이름과 각종 arguments들을 파일 이름으로하여 저장해 둔다. 다음에 불러올 때에는 파일이 있는지를 체크하여 다시 계산하지 않고 빠르게 불러올 수 있다.
+위와 같이 cached라는 데코레이터를 만들어 보았다. 사용할 때에는 자신이 만든 함수 위에다가 `@cached`라고만 적어두면 된다. 이는 함수가 반환하는 리턴값 자체를 pickle로 dump시켜 cached라는 폴더 안에다가 함수 이름과 각종 arguments들을 파일 이름으로하여 저장해 둔다. 다음에 불러올 때에는 파일이 있는지를 체크하여 다시 계산하지 않고 빠르게 불러올 수 있다.
