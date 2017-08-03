@@ -42,3 +42,43 @@ plt.plot(x, y)
 plt.subplot(212)
 plt.plot(x, y)
 ```
+
+### plt와 axis의 차이
+
+`plt`를 통해 그리는 것과 `axis`를 통해 그릴 때 메소드명이 약간씩 다르다.
+
+#### xtick
+
+```python
+plt.xticks(x, xtlab, rotation=90)
+```
+
+```python
+ax.set_xticks(x)
+ax.set_xticklabels(xtlab, rotation=90)
+```
+
+#### x-axis, y-axis label
+
+```python
+plt.xlabel('x-axis label')
+plt.ylabel('y-axis label')
+```
+
+```python
+ax.set_xlabel('x-axis label')
+ax.set_ylabel('x-axis label')
+```
+
+
+#### xlim, ylim
+
+```python
+plt.xlim(0, 1)
+plt.ylim(0, 1)
+```
+
+```python
+ax.set_xlim(0, 1)
+ax.set_ylim(0, 1)
+```
