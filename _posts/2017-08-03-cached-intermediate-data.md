@@ -101,4 +101,4 @@ step2.hg38.ACC001.dat
 step3('hg38', 'ACC001', 'ks')  # (3-5) changed statistical test from the case 3-4
 ```
 
-읽어주셔서 감사합니다.
+읽어주셔서 감사합니다. 필요하신 분께는 도움이 되셨길 바랍니다.
