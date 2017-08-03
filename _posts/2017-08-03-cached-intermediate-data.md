@@ -95,7 +95,7 @@ step2.hg19.ACC002.dat
 step2.hg38.ACC001.dat
 ```
 
-만약 네 번째 경우(3-4)의 Ranksum test만 KS test로 바꿔 진행하려고 하는 경우(3-5)가 생긴다면, `step3` 함수가 `step2` 함수를 호출하는 것이 아니라 step2까지 이미 계산된 `step2.hg38.AC0001.dat` 파일을 읽어들여 통계적 테스트 방식만 바꾸어 빠르게 진행할 수 있습니다.
+만약 네 번째 경우(3-4)의 Ranksum test만 KS test로 바꿔 진행하려고 하는 경우(3-5)가 생긴다면, `step3` 함수가 `step2` 함수를 호출하는 것이 아니라 step2까지 이미 계산된 `step2.hg38.ACC001.dat` 파일을 읽어들여 통계적 테스트 방식만 바꾸어 빠르게 진행할 수 있습니다.
 
 ```python
 step3('hg38', 'ACC001', 'ks')  # (3-5) changed statistical test from the case 3-4
