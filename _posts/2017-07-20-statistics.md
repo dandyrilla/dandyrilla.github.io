@@ -52,3 +52,19 @@ import scipy.stats
 r   = np.corrcoef(x, y)[0, 1]  # Pearson's corrleation coefficient
 rho = scipy.stats.spearmanr(x, y)[0]  # Spearman's rank correlation coefficient
 ```
+
+#### Regression analysis
+
+```python
+import statsmodels.api as sm
+est = sm.OLS(y, X).fit()
+print(est.summary())
+```
+
+```python
+from sklearn import linear_model
+lr = LinearRegression().fit(X,y)
+lr.coef_
+lr.intercept_
+lr.score()
+```
