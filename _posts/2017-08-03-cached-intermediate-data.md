@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Python decorator for saving intermediate files during pipeline"
-description: "파이썬 데코레이터를 이용하여 긴 파이프라인 중간에 생산된 데이터들을 저장해두는 기능을 구현해보았습니다."
+title: "중복 계산을 줄여주는 파이썬 데코레이터"
+description: "파이썬 데코레이터를 이용하여 긴 파이프라인 중간에 생산된 데이터들을 자동 저장해두는 기능을 구현하는 내용입니다. (Python decorator for saving intermediate files during pipeline)"
 tags: [python tips, decorator]
 share: true
 comments: true
