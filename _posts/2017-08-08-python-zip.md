@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "리스트의 정렬 여부를 체크하는 여러 방법들"
-description: "파이썬의 빌트인 함수인 all과 zip의 활용법에 대한 내용을 담고 있습니다."
-tags: [python tips, zip]
+title: "리스트의 정렬 여부를 체크하는 효율적인 방법"
+description: "파이썬의 빌트인 함수인 all과 zip을 활용하여 정렬 여부를 체크하는 방법을 알아봅니다."
+tags: [python tips, built-in functions, all, zip]
 share: true
 comments: true
 ---
