@@ -24,3 +24,16 @@ bam = pysam.AlignmentFile(in_file_bam)
 for segment in bam.fetch():
     print(segment)
 ```
+
+
+
+
+### 서로 같은 값을 저장하고 있는 instance 변수들
+
+
+#### query sequence
+
+* segment.seq
+* segment.query
+* segment.query_sequence
+* segment.query\_alignment_sequence
