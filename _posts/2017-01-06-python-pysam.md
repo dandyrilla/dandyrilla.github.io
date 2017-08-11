@@ -30,10 +30,32 @@ for segment in bam.fetch():
 
 ### 서로 같은 값을 저장하고 있는 instance 변수들
 
-* Read name: `segment.query_name` = `segment.qname`
-* Read sequence: `segment.seq` = `segment.query` = `segment.query_sequence` = `segment.query_alignment_sequence`
-* Read phred quality scores: `segment.qual` = `segment.qqual`
-* End position of aligned read: `segment.reference_end` = `segment.aend`
-* Reference length of aligned read: `segment.reference_length` = `segment.reference_alen`
-* Aligned pairs: `segment.aligned_pairs` = `segment.get_aligned_pairs()`
-* Mapping quality: `segment.mapping_quality` = `segment.mapq`
+* Read name:
+    * `segment.query_name`
+    * = `segment.qname`
+
+* Read sequence:
+    * `segment.seq`
+    * = `segment.query`
+    * = `segment.query_sequence`
+    * = `segment.query_alignment_sequence`
+
+* Read phred quality scores:
+    * `segment.qual`
+    * = `segment.qqual`
+
+* End position of aligned read:
+    * `segment.reference_end`
+    * = `segment.aend`
+
+* Reference length of aligned read:
+    * `segment.reference_length`
+    * = `segment.reference_alen`
+
+* Aligned pairs:
+    * `segment.aligned_pairs`
+    * = `segment.get_aligned_pairs()`
+
+* Mapping quality:
+    * `segment.mapping_quality`
+    * = `segment.mapq`
