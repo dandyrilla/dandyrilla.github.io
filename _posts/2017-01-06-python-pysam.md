@@ -30,32 +30,33 @@ for read in bam.fetch():
 
 ### 동일한 값을 갖고 있는 read의 인스턴스 변수들
 
-* Read name:
-    * `read.query_name`
-    * = `read.qname`
+pysam에는 이름은 미묘하게 차이가 나지만 동일한 값을 갖고 있는 것들이 많다. 다음과 같은 python의 assert 문으로 만들어 보았다. (아직까지 읽었던 bam 파일들에서 assertion error가 나지는 않음)
 
-* Read sequence:
-    * `read.seq`
-    * = `read.query`
-    * = `read.query_sequence`
-    * = `read.query_alignment_sequence`
+```python
 
-* Read phred quality scores:
-    * `read.qual`
-    * = `read.qqual`
+def pysam_assertions(read):
 
-* End position of aligned read:
-    * `read.reference_end`
-    * = `read.aend`
+    ## read name
+    assert read.query_name == read.qname
 
-* Reference length of aligned read:
-    * `read.reference_length`
-    * = `read.reference_alen`
+    ## read sequence
+    assert read.seq == read.query
+    assert read.seq == read.query_sequence
+    assert read.seq == read.query_alignment_sequence
 
-* Aligned pairs:
-    * `read.aligned_pairs`
-    * = `read.get_aligned_pairs()`
+    ## read phread quality score
+    assert read.qual == read.qqual
 
-* Mapping quality:
-    * `read.mapping_quality`
-    * = `read.mapq`
+    ## end position of aligned read
+    assert read.reference_end == read.aend
+
+    ## reference length of aligned read
+    assert read.reference_length == read.reference_alen
+
+    ## aligned pairs
+    assert read.aligned_pairs == read.get_aligned_pairs()
+
+    ## mapping quality
+    assert read.mapping_quality == read.mapq
+    
+```
