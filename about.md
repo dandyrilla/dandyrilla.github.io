@@ -6,7 +6,7 @@ permalink: /about/
 ### Profile
 
 Name
-: 김석준, Sukjun Kim
+: 김석준 (Sukjun Kim)
 
 E-mail
 : dandyrilla@naver.com
@@ -17,7 +17,7 @@ Github
 
 ### Publications
 
-* Doyeon Kim, You Me Sung, Jinman Park, **Sukjun Kim**, Jongkyu Kim, Junhee Park, Haeok Ha,Jung Yoon Bae, SoHui Kim and Daehyun Baek (2016). [General rules for functional microRNA targeting.](https://www.ncbi.nlm.nih.gov/pubmed/27776116) *Nature Genetics*
+* Doyeon Kim, You Me Sung, Jinman Park, **Sukjun Kim**, Jongkyu Kim, Junhee Park, Haeok Ha, Jung Yoon Bae, SoHui Kim and Daehyun Baek (2016). [General rules for functional microRNA targeting.](https://www.ncbi.nlm.nih.gov/pubmed/27776116) *Nature Genetics*
 
 * Seongmin Choi, Hyeong Ryul Kim, Chang Ohk Sung, Jongkyu Kim, **Sukjun Kim**, ..., Gu Kong, Daehyun Baek, and Se Jin Jang (2015). [Genomic alterations in the RB pathway indicate prognostic outcomes of early-stage lung adenocarcinoma.](https://www.ncbi.nlm.nih.gov/pubmed/25294902) *Clinical Cancer Research*
   * [폐선암 재발 부추기는 유전자 돌연변이형 첫 발굴](http://news.kmib.co.kr/article/view.asp?arcid=0008854069&code=61171911&cp=nv), 2014-11-13, 국민일보
