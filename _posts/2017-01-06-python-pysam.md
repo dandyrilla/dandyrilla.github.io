@@ -31,9 +31,39 @@ for segment in bam.fetch():
 ### 서로 같은 값을 저장하고 있는 instance 변수들
 
 
-#### query sequence
+#### 1. `segment.query_name`
+
+* segment.query_name
+* segment.qname
+
+#### 2. `segment.seq`
 
 * segment.seq
 * segment.query
 * segment.query_sequence
 * segment.query\_alignment_sequence
+
+#### 3. `segment.qual`
+
+* segment.qual
+* segment.qqual
+
+#### 4. `segment.reference_end`
+
+* segment.reference_end
+* semgnet.aend
+
+#### 5. `segment.reference_length`
+
+* segment.reference_length
+* segment.reference_alen
+
+#### 6. `segment.aligned_pairs`
+
+* segment.aligned_pairs
+* segment.get_aligned_pairs()
+
+#### 7. `segment.mapping_quality`
+
+* segment.mapping_quality
+* segment.mapq
