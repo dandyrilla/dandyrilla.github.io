@@ -33,8 +33,7 @@ for read in bam.fetch():
 pysam에는 이름은 미묘하게 차이가 나지만 동일한 값을 갖고 있는 것들이 많다. 다음과 같은 python의 assert 문으로 만들어 보았다. (아직까지 읽었던 bam 파일들에서 assertion error가 나지는 않음)
 
 ```python
-
-def pysam_assertions(read):
+def check_pysam_assertions(read):
 
     ## read name
     assert read.query_name == read.qname
@@ -58,5 +57,4 @@ def pysam_assertions(read):
 
     ## mapping quality
     assert read.mapping_quality == read.mapq
-    
 ```
