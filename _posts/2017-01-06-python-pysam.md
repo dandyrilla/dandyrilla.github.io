@@ -21,41 +21,41 @@ import pysam
 
 bam = pysam.AlignmentFile(in_file_bam)
 
-for segment in bam.fetch():
-    print(segment)
+for read in bam.fetch():
+    print(read)
 ```
 
 
 
 
-### 서로 같은 값을 저장하고 있는 instance 변수들
+### 동일한 값을 갖고 있는 read의 인스턴스 변수들
 
 * Read name:
-    * `segment.query_name`
-    * = `segment.qname`
+    * `read.query_name`
+    * = `read.qname`
 
 * Read sequence:
-    * `segment.seq`
-    * = `segment.query`
-    * = `segment.query_sequence`
-    * = `segment.query_alignment_sequence`
+    * `read.seq`
+    * = `read.query`
+    * = `read.query_sequence`
+    * = `read.query_alignment_sequence`
 
 * Read phred quality scores:
-    * `segment.qual`
-    * = `segment.qqual`
+    * `read.qual`
+    * = `read.qqual`
 
 * End position of aligned read:
-    * `segment.reference_end`
-    * = `segment.aend`
+    * `read.reference_end`
+    * = `read.aend`
 
 * Reference length of aligned read:
-    * `segment.reference_length`
-    * = `segment.reference_alen`
+    * `read.reference_length`
+    * = `read.reference_alen`
 
 * Aligned pairs:
-    * `segment.aligned_pairs`
-    * = `segment.get_aligned_pairs()`
+    * `read.aligned_pairs`
+    * = `read.get_aligned_pairs()`
 
 * Mapping quality:
-    * `segment.mapping_quality`
-    * = `segment.mapq`
+    * `read.mapping_quality`
+    * = `read.mapq`
