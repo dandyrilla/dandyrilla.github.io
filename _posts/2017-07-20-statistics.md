@@ -78,3 +78,18 @@ lr.coef_
 lr.intercept_
 lr.score()
 ```
+
+
+#### Binomial test
+
+See [documentation of scipy.stats.binom_test](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binom_test.html)
+
+```python
+import scipy.stats
+
+scipy.stats.binom_test(30, 100, 0.5)                   # 7.85013964559e-05
+scipy.stats.binom_test(30, 100, 0.5, 'two-sided')      # 7.85013964559e-05
+scipy.stats.binom_test(30, 100, 0.5, 'two-sided') / 2  # 3.9250698228e-05
+scipy.stats.binom_test(30, 100, 0.5, 'less')           # 3.9250698228e-05
+scipy.stats.binom_test(70, 100, 0.5, 'greater')        # 3.9250698228e-05
+```
