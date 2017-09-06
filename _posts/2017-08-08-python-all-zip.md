@@ -60,8 +60,11 @@ for x, y in zip(agesX, agesY):
 `ages[:-1]`는 리스트 `ages`가 갖고 있는 맨 뒤의 숫자인 24만 제외한 리스트이며, `ages[1:]`는 그와 반대로 맨 앞의 숫자인 13만 제외한 리스트이다. 이 둘은 한 숫자만 제외하였으므로 길이가 같다. 이 둘을 `zip` 함수에 넣어주면 두 리스트의 요소들이 각각 하나씩 순서대로 리턴되는 것을 볼 수 있다. 그렇지만 이러한 동작의 의미를 달리 해석해 보면 `ages`라는 리스트에서 인접한 두 쌍을 계속 리턴하는 방법으로 생각할 수 있다. 따라서 인접한 두 숫자를 비교하는 데에도 사용할 수 있는 것이다.
 
 ```python
-is_sorted = all(x<y for x, y in zip(ages[:-1], ages[1:]))  # check if it is sorted in ascending order
-is_sorted = all(x>y for x, y in zip(ages[:-1], ages[1:]))  # check if it is sorted in descending order
+# check if it is sorted in ascending order
+is_sorted = all(x<y for x, y in zip(ages[:-1], ages[1:]))
+
+# check if it is sorted in descending order
+is_sorted = all(x>y for x, y in zip(ages[:-1], ages[1:]))
 ```
 
 이것의 장점은 우리가 마음대로 판단의 내용을 정할 수 있다는 것이다. 정순으로 정렬하고 싶으면 `x<y`, 역순으로 정렬하고 싶으면 `x>y`로 해주면 된다.
