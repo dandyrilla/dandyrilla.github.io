@@ -8,13 +8,22 @@ share: false
 ---
 
 
-## GitHub repositories written in python
+### GitHub repositories written in python
 
-* Illumina 
+* [Illumina](https://github.com/Illumina): Strelka, hap.py
 
 
-## 개발 블로그
+### 프로그래밍, 개발, Python
 
+* [파이썬을 여행하는 히치하이커를 위한 안내서](http://python-guide-kr.readthedocs.io/ko/latest/): 책 번역
+* [What the f*ck Python?](https://github.com/satwikkansal/wtfpython/blob/master/README.md): 파이썬의 tricky한 부분들을 예제로 잘 정리해놓은 곳
 * [8퍼센트의 프로덕트 블로그](https://8percent.github.io/): 두숟갈 스터디
 * [초보몽키의 개발공부로그](https://wayhome25.github.io/): TIL, Javascript, node.js, python, django, MySQL
-* [tech.ssut](https://tech.ssut.me/): Python and Go enthusiast
+* [tech.ssut](https://tech.ssut.me/): Python and Go enthusiast, 
+* [나의 큰 O는 logx야..](http://bab2min.tistory.com/): 프로그래밍, Python, 수학
+
+
+### 글 잘쓰는 사람들
+
+* [탱알캐리](http://taengal.tistory.com/): 호주 거주중인 티스토리 블로거, 외국에서 바라보는 한국에 대한 시선, 페미니즘 제대로 알리기
+* [사소한 공상의 세계](http://dreame2000.blog.me/220915487511): 사회문제에 대하여 글을 조리있게 잘 쓰는 네이버 블로거
