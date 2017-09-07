@@ -17,6 +17,8 @@ share: false
 
 * [파이썬을 여행하는 히치하이커를 위한 안내서](http://python-guide-kr.readthedocs.io/ko/latest/): 책 번역
 * [What the f*ck Python?](https://github.com/satwikkansal/wtfpython/blob/master/README.md): 파이썬의 tricky한 부분들을 예제로 잘 정리해놓은 곳
+* [Python Patterns](http://matthiaseisen.com/pp/): 파이썬의 디자인 패턴들
+
 * [8퍼센트의 프로덕트 블로그](https://8percent.github.io/): 두숟갈 스터디
 * [초보몽키의 개발공부로그](https://wayhome25.github.io/): TIL, Javascript, node.js, python, django, MySQL
 * [tech.ssut](https://tech.ssut.me/): Python and Go enthusiast, 
