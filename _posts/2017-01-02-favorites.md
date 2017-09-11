@@ -10,7 +10,6 @@ share: false
 ### 연구
 
 * [UCSC Genome Browser](https://genome.ucsc.edu/)
-* 
 
 
 ### 프로그래밍, 개발, Python
@@ -25,6 +24,7 @@ share: false
 * [Matplotlib tutorial](https://www.labri.fr/perso/nrougier/teaching/matplotlib/): matplotlib이 그림을 그리는 개념에 대한 소개
 * [파이콘 한국 2017](https://www.pycon.kr/2017/): 파이콘 한국 2017 발표 슬라이드
 
+* [GitHub:YeoLab](https://github.com/YeoLab)
 * [GitHub:Illumina](https://github.com/Illumina): Strelka, hap.py
 * [GitHub:GoogleGenomics](https://github.com/googlegenomics): Tools for working with Google Genomics API
 
