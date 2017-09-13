@@ -11,7 +11,14 @@ share: true
 
 
 
+### cannot open shared object file 에러
 
+해당 공유 라이브러리를 찾지 못해서 나는 에러이다.
+
+```
+libstdc++.so.5: cannot open shared object file: No such file or directory
+libgcc_s.so.1: cannot open shared object file: No such file or directory
+```
 
 
 ### no version information available 에러
