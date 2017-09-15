@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "sphinx로 파이썬 코드 문서화 시키기"
-description: "파이썬 코드들을 sphinx로 문서화 시키는 방법에 대하여 알아봅니다."
+title: "Sphinx로 파이썬 패키지를 문서화 시키기"
+description: "파이썬 패키지를 sphinx로 문서화 시키는 방법에 대하여 알아봅니다."
 tags: [sphinx, python documentation]
 share: true
 comments: true
@@ -127,3 +127,8 @@ source files. Use the Makefile to build the docs, like so:
    make builder
 where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 ```
+
+
+### 참고
+
+* [tech.ssut - Python 문서화, Sphinx로 아주 간단하게 시작해보기](https://tech.ssut.me/2015/07/28/start-python-documentation-using-sphinx/)
