@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sphinx로 파이썬 패키지를 문서화 시키기"
-description: "파이썬 패키지를 sphinx로 문서화 시키는 방법에 대하여 알아봅니다."
+description: "소스코드를 잘 문서화 시켜두는 것은 곧 기존 코드의 재사용성을 높이고 개발 생산성을 증가시킵니다. 개발하면서 문서화까지 작업할 수 있는 스핑크스(Sphinx)라는 문서화 도구를 이용해 패키지를 문서화 시키는 방법에 대하여 알아봅니다."
 tags: [sphinx, python documentation]
 share: true
 comments: true
