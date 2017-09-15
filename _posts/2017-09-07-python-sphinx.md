@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-Sphinx로 문서화를 하고 싶은 폴더에서 다음과 같이 `sphinx-quickstart`를 실행시킨다. 그러면 몇 가지 물어본다. 첫 번째로 documentation을 저장해 놓을 경로를 물어본다. 보통 현재 디렉토리 내에 docs라는 이름의 폴더를 만들어 보관하므로 `docs/`라 입력해 주었다.
+[Sphinx](http://www.sphinx-doc.org/en/stable/)로 문서화를 하고 싶은 폴더에서 다음과 같이 `sphinx-quickstart`를 실행시킨다. 그러면 몇 가지 물어본다. 첫 번째로 documentation을 저장해 놓을 경로를 물어본다. 보통 현재 디렉토리 내에 'doc'이라는 이름의 폴더를 만들어 보관하므로 `doc/`을 입력해 주었다.
 
 ```
 $ sphinx-quickstart
@@ -17,10 +17,10 @@ Please enter values for the following settings (just press Enter to
 accept a default value, if one is given in brackets).
 
 Enter the root path for documentation.
-> Root path for the documentation [.]: docs/
+> Root path for the documentation [.]: doc/
 ```
 
-두 번째로 빌드 디렉토리를 어디에 놓을 것인지를 물어본다. 소스와 빌드 디렉토리를 구분하지 않으면 `docs/_build`라는 폴더에 빌드를 저장하게 되고, 따로 구분하여 쓸 것이라면 `docs/_source`와 `docs/_build` 디렉토리가 따로 생성된다. 기본값을 사용하기 위해 엔터로 넘어간다.
+두 번째로 빌드 디렉토리를 어디에 놓을 것인지를 물어본다. 소스와 빌드 디렉토리를 구분하지 않으면 `doc/_build`라는 폴더에 빌드를 저장하게 되고, 따로 구분하여 쓸 것이라면 `doc/_source`와 `doc/_build` 디렉토리가 따로 생성된다. 기본값을 사용하기 위해 엔터로 넘어간다.
 
 ```
 You have two options for placing the build directory for Sphinx output.
@@ -29,7 +29,7 @@ Either, you use a directory "_build" within the root path, or you separate
 > Separate source and build directories (y/n) [n]:
 ```
 
-세 번째로 루트 디렉토리 `docs` 내에 두 가지 폴더를 더 생성하는데, 생성할 폴더의 이름 앞에 붙는 prefix를 결정할 수 있다. 여기에서도 기본값을 사용할 것이므로 엔터를 쳐서 넘어간다.
+세 번째로 루트 디렉토리 `doc` 내에 두 가지 폴더를 더 생성하는데, 생성할 폴더의 이름 앞에 붙는 prefix를 결정할 수 있다. 여기에서도 기본값을 사용할 것이므로 엔터를 쳐서 넘어간다.
 
 ```
 Inside the root directory, two more directories will be created; "_templates"
@@ -112,9 +112,9 @@ directly.
 > Create Makefile? (y/n) [y]:
 > Create Windows command file? (y/n) [y]: n
 
-Creating file docs/conf.py.
-Creating file docs/index.rst.
-Creating file docs/Makefile.
+Creating file doc/conf.py.
+Creating file doc/index.rst.
+Creating file doc/Makefile.
 ```
 
 초기 설정이 모두 완성되었다! html 문서를 빌드하려면 이제 `make html`과 같이 입력하여 간편하게 문서를 만들 수 있다.
@@ -122,7 +122,7 @@ Creating file docs/Makefile.
 ```
 Finished: An initial directory structure has been created.
 
-You should now populate your master file docs/index.rst and create other documentation
+You should now populate your master file doc/index.rst and create other documentation
 source files. Use the Makefile to build the docs, like so:
    make builder
 where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
