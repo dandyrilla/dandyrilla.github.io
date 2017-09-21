@@ -28,7 +28,9 @@ share: false
 * [GitHub:Illumina](https://github.com/Illumina): Strelka, hap.py
 * [GitHub:GoogleGenomics](https://github.com/googlegenomics): Tools for working with Google Genomics API
 
-### 글 잘쓰는 사람들
+### 기타
 
 * [탱알캐리](http://taengal.tistory.com/): 호주 거주중인 티스토리 블로거, 외국에서 바라보는 한국에 대한 시선, 페미니즘 제대로 알리기
 * [사소한 공상의 세계](http://dreame2000.blog.me/220915487511): 사회문제에 대하여 글을 조리있게 잘 쓰는 네이버 블로거
+* [만나씨이에이](http://www.mannacea.com/): 친환경 농법과 IT기술을 접목시킨 방법으로 농산물을 재배하는 스타트업
+    * [만나박스](http://mannabox.co.kr/): 농업회사법인 만나씨이에이 주식회사의 농산물 판매 사이트
