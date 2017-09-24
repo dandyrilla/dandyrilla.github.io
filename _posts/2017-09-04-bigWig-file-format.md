@@ -12,7 +12,7 @@ comments: true
 * bigWig 트랙에 대한 정보: [http://genome.ucsc.edu/goldenPath/help/bigWig.html](http://genome.ucsc.edu/goldenPath/help/bigWig.html)
 
 
-## wig 파일을 bw 파일로 변환하기 (wigToBigWig)
+### wig 파일을 bw 파일로 변환하기 (wigToBigWig)
 
 ```
 wigToBigWig in.wig chrom.sizes out.bw

@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-[Sphinx](http://www.sphinx-doc.org/en/stable/)로 문서화를 하고 싶은 폴더에서 다음과 같이 `sphinx-quickstart`를 실행시킨다. 그러면 몇 가지 물어본다. 첫 번째로 documentation을 저장해 놓을 경로를 물어본다. 보통 현재 디렉토리 내에 'doc'이라는 이름의 폴더를 만들어 보관하므로 `doc`을 입력해 주었다.
+[Sphinx](http://www.sphinx-doc.org/en/stable/)로 문서화를 하고 싶은 폴더에서 다음과 같이 `sphinx-quickstart`를 실행시킨다. 그러면 몇 가지 항목을 물어본다. 첫 번째로 documentation을 저장해 놓을 경로를 물어본다. 보통 현재 디렉토리 내에 'doc'이라는 이름의 폴더를 만들어 보관하므로 `doc`을 입력해 주었다.
 
 ```
 $ sphinx-quickstart
