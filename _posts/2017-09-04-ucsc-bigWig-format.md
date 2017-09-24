@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UCSC bigWig file format"
-description: "Introduction to UCSC bigWig file format"
+description: "bigWig 파일 포맷에 대하여 알아보고 random access가 가능하도록 사용하는 방법에 대하여 알아봅니다."
 tags: [UCSC, bigWig]
 share: true
 comments: true
