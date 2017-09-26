@@ -1,115 +1,9 @@
 ---
 layout: post
-title: "Sample post"
+title: "마크다운 스타일 샘플 문서"
+description: "마크다운을 이용하여 스타일을 적용하는 방법을 알아봅니다."
 comments: true
 share: false
----
-
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
-
----
-
-## 1. Header 
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-### 1-1. Header Alignment 
-
-##### Left(Default)
-
-##### Center
-{: .center}
-
-##### Right
-{: .right}
-
-## 2. Body Text
-
-Lorem ipsum dolor sit amet, [test link](#) adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. *This is emphasized.* Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget `COPY filename` sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, <del>Dinner’s at 5:00.</del> commodo vitae, feugiat in, nunc. Morbi imperdiet augue <mark>mark element</mark> quis tellus.
-
-## 3. Images
-
-![Large example image](http://placehold.it/800x400 "Large example image")
-![Medium example image](http://placehold.it/400x200 "Medium example image")
-![Small example image](http://placehold.it/200x200 "Small example image")
-
-### 3-1. Image Alignment
-![Center example image](http://placehold.it/200x200 "Center"){: .center-image}
-
-## 4. Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
-
-## 5. List Types
-
-### Unordered List
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-* Nam ultrices nunc in nisi pellentesque ultricies. Cras scelerisque ipsum in ante laoreet viverra. Pellentesque eget quam et augue molestie tincidunt ac ut ex. Sed quis velit vulputate, rutrum nisl sit amet, molestie neque. Vivamus sed augue at turpis suscipit fringilla.
-* Integer pretium nisl vitae justo aliquam, at varius nisi blandit.
-  1. Nunc vehicula nulla ac odio gravida vestibulum sed nec mauris.
-  2. Duis at diam eget arcu dapibus consequat.
-* Etiam vel elit in purus iaculis pretium.
-
-### Ordered List
-
-1. Quisque ullamcorper leo non ex pretium, in fermentum libero imperdiet.
-2. Donec eu nulla euismod, rhoncus ipsum nec, faucibus elit.
-3. Nam blandit purus gravida, accumsan sem in, lacinia orci.
-  * Duis congue dui nec nisi posuere, at luctus velit semper.
-  * Suspendisse in lorem id lacus elementum pretium nec vel nibh.
-4. Aliquam eget ipsum laoreet, maximus risus vitae, iaculis leo.
-
-### Definition Lists
-
-kramdown
-: A Markdown-superset converter
-
-Maruku
-: Another Markdown-superset converter
-
-## 6. Tables
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-
-
-## 7. Code Snippets
-
-### Highlighted Code Blocks
-
-```css
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-```
-
-### Standard code block
-
-    <div id="awesome">
-      <p>This is great isn't it?</p>
-    </div>
-
-
 ---
 
 이 글은 스타일을 모아둔 것입니다. 소스 코드를 확인하여 스타일을 적용하는 방법을 알아보세요.
@@ -143,6 +37,10 @@ Maruku
 ## 2. 본문 
 
 탄핵소추의 의결을 받은 자는 탄핵심판이 있을 때까지 [링크](#) 그 권한행사가 정지된다. 제2항과 제3항의 처분에 대하여는 **굵게** 법원에 제소할 수 없다. 선거와 국민투표의 공정한 관리 *기울임* 및 정당에 관한 사무를 처리하기 위하여 5<sup>3</sup> = 125 선거관리위원회를 둔다. 국무총리는 대통령을 보좌하며, H<sub>2</sub>O 행정에 관하여 대통령의 명을 받아 행정각부를 통할한다. 정당은 법률이 정하는 바에 의하여 <u>밑줄</u> 국가의 보호를 받으며, 국가는 법률이 정하는 바에 의하여 `파일명` 정당운영에 필요한 자금을 보조할 수 있다. 모든 국민은 종교의 자유를 가진다. 국회의원은 법률이 정하는 직을 겸할 수 없다. 감사원은 <del>가운데 줄</del> 세입·세출의 결산을 매년 검사하여 대통령과 차년도국회에 <mark>형광펜</mark> 그 결과를 보고하여야 한다.
+
+--wow--
+
+더블 대쉬: --doubledash
 
 ## 3. 이미지
 
@@ -216,40 +114,6 @@ Maruku
       <p>This is great isn't it?</p>
     </div>
 
---- 
-
-이 문서는 [한글 Lorem Ipsum](http://guny.kr/stuff/klorem/)으로 생성되었습니다.
-
----
-
-
-
-# Title H1
-
-## Title H2
-
-### Title H3
-
-* Unordered item 1
-* Unordered item 2
-* Unordered item 3
-
-1. Ordered item 1
-2. Ordered item 2
-   * unordered item 1
-   * unordered item 2
-   * unordered item 3
-3. Ordered item 3
-
-Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney's next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney's sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.
-
-> Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.
-
-Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
-
-[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
-
-### Highlighted Code Blocks
 
 To modify styling and highlight colors edit `/_sass/_highlighter.scss`.
 
@@ -293,7 +157,6 @@ module Jekyll
 end
 ```
 
-
 ### Standard Code Block
 
     {% raw %}<nav class="pagination" role="navigation">
@@ -310,3 +173,12 @@ end
 An example of a Gist embed below.
 
 <script src="https://gist.github.com/mmistakes/43a355923921d22cd993.js"></script>
+
+
+--- 
+
+이 문서는 [한글 Lorem Ipsum](http://guny.kr/stuff/klorem/)으로 생성[^1]되었습니다.
+
+[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
+
+---
