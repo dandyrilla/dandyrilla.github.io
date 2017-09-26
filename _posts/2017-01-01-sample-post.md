@@ -40,6 +40,14 @@ share: false
 
 --wow--
 
+
+```
+--wow--
+{% raw %}
+--wow--
+{% endraw %}
+```
+
 더블 대쉬: --doubledash
 
 ## 3. 이미지
