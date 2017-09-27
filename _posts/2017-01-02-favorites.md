@@ -21,9 +21,10 @@ share: false
 * [초보몽키의 개발공부로그](https://wayhome25.github.io/): TIL, Javascript, node.js, python, django, MySQL
 * [tech.ssut](https://tech.ssut.me/): Python and Go enthusiast, 
 * [나의 큰 O는 logx야..](http://bab2min.tistory.com/): 프로그래밍, Python, 수학
+* [혜식이의 떼로 보는 세상](http://openlook.org/wp/): RNA 연구, 개인 유전체 분석, 시퀀싱 장비
+
 * [Matplotlib tutorial](https://www.labri.fr/perso/nrougier/teaching/matplotlib/): matplotlib이 그림을 그리는 개념에 대한 소개
 * [파이콘 한국 2017](https://www.pycon.kr/2017/): 파이콘 한국 2017 발표 슬라이드
-
 * [GitHub:YeoLab](https://github.com/YeoLab)
 * [GitHub:Illumina](https://github.com/Illumina): Strelka, hap.py
 * [GitHub:GoogleGenomics](https://github.com/googlegenomics): Tools for working with Google Genomics API
