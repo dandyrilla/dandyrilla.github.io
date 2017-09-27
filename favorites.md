@@ -1,10 +1,6 @@
 ---
-layout: post
 title: "즐겨찾기"
-description: "링크 모음집"
-tags: [link, hyperlink]
-comments: true
-share: false
+permalink: /favorites/
 ---
 
 ### 연구
