@@ -7,6 +7,9 @@ permalink: /favorites/
 
 * [UCSC Genome Browser](https://genome.ucsc.edu/)
     * 각 유전체별 바로가기: [hg19](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19), [hg38](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38), [mm9](https://genome.ucsc.edu/cgi-bin/hgTracks?&db=mm9), [mm10](https://genome.ucsc.edu/cgi-bin/hgTracks?db=mm10)
+* [miRBase](http://www.mirbase.org/): microRNA 데이터베이스
+    * 다운로드 페이지: [Release 20](ftp://mirbase.org/pub/mirbase/20/), [Release 21](ftp://mirbase.org/pub/mirbase/21/)
+
 
 
 ### 프로그래밍, 개발, Python
