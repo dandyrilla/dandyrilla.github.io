@@ -63,6 +63,8 @@ nav:
     url:            "/tags"
   - name:           "Github"
     url:            "https://github.com/dandyrilla"
+  - name:           "Favorites"
+    url:            "/favorites"
 
 # Sass
 sass:
