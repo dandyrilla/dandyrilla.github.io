@@ -20,7 +20,18 @@ permalink: /favorites/
 * [tech.ssut](https://tech.ssut.me/): Python and Go enthusiast, 
 * [나의 큰 O는 logx야..](http://bab2min.tistory.com/): 프로그래밍, Python, 수학
 * [혜식이의 떼로 보는 세상](http://openlook.org/wp/): RNA 연구, 개인 유전체 분석, 시퀀싱 장비
+* [멍멍멍](http://bowbowbow.tistory.com/): yswon님의 개발 블로그, 기하 알고리즘에 대해 잘 정리해 놓은 포스트가 많다.
+    * [외적을 이용해서 선분과 선분의 교차점 구하기](http://bowbowbow.tistory.com/17)
+    * [다각형의 내부/외부 판별](http://bowbowbow.tistory.com/24)
+* [파이콘 한국 2017](https://www.pycon.kr/2017/): 파이콘 한국 2017 발표 슬라이드
+* [GitHub:YeoLab](https://github.com/YeoLab)
+* [GitHub:Illumina](https://github.com/Illumina): Strelka, hap.py
+* [GitHub:GoogleGenomics](https://github.com/googlegenomics): Tools for working with Google Genomics API
 
+
+### 데이터 시각화 (data visualization)
+
+* [Matplotlib tutorial](https://www.labri.fr/perso/nrougier/teaching/matplotlib/): matplotlib이 그림을 그리는 개념에 대한 소개
 * [The Python Graph Gallery](https://python-graph-gallery.com/): 파이썬으로 그래프를 그릴 때 참고할 수 있는 샘플 코드. 여러가지 종류의 그래프 별로 matplotlib으로 그래프를 그릴 수 있는 python code snippet들을 잘 정리해 놓았다.
 * [Visual covabulary](ft.com/vocabulary): 총 64개의 차트를 9개 분류로 나누어 표현해 놓았다.
 * [뉴스젤리의 데이터 시각화로 보는 세상](http://blog.naver.com/datageeks)
@@ -28,15 +39,13 @@ permalink: /favorites/
     * [세상의 모든 차트에 대하여 - 차트 위키 제작 스토리](http://blog.naver.com/datageeks/220924543078)
     * [뉴스젤리의 차트 위키에 사용된 스트레드시트 결과물](https://docs.google.com/spreadsheets/d/16Ii3pdCdVuKO4wrTJmKPLERGb-6L9OB6eX-DzwREqT4/edit#g)
 * [OpenVisConf](https://openvisconf.com/)
-
-* [Matplotlib tutorial](https://www.labri.fr/perso/nrougier/teaching/matplotlib/): matplotlib이 그림을 그리는 개념에 대한 소개
-* [파이콘 한국 2017](https://www.pycon.kr/2017/): 파이콘 한국 2017 발표 슬라이드
-* [GitHub:YeoLab](https://github.com/YeoLab)
-* [GitHub:Illumina](https://github.com/Illumina): Strelka, hap.py
-* [GitHub:GoogleGenomics](https://github.com/googlegenomics): Tools for working with Google Genomics API
+* [The Gingras Laboratory](http://gingraslab.lunenfeld.ca/index.php): Tools for proteomics data, ProHits-Viz: webtool to improve visualization of protein interaction data (Nature Methods), Department of Molecular Genetics at the University of Toronto, The Lunenfeld-Tanenbaum Research Institute
+* [The Interaction Design Lab](https://idl.fh-potsdam.de/people/frank-heidmann/): Dr. Frank Heidmann, University of Applied Sciences Potsdam, Germany, Human-Computer Interaction
+* [Visual Cinnamon](https://www.visualcinnamon.com/): Nadieh Bremer, Amsterdam, Netherlands
+* [Bocoup](https://bocoup.com/): Open Source Technology & Design Consulting
 
 
-### 기타
+
 
 * [탱알캐리](http://taengal.tistory.com/): 호주 거주중인 티스토리 블로거, 외국에서 바라보는 한국에 대한 시선, 페미니즘 제대로 알리기
     * [헬조선 노트 4: 왜 애 엄마들은 백화점에서 '꿀'을 빨까](http://taengal.tistory.com/152)
@@ -46,12 +55,7 @@ permalink: /favorites/
 
 
 
-### 시각화 관련
 
-* [The Gingras Laboratory](http://gingraslab.lunenfeld.ca/index.php): Tools for proteomics data, ProHits-Viz: webtool to improve visualization of protein interaction data (Nature Methods), Department of Molecular Genetics at the University of Toronto, The Lunenfeld-Tanenbaum Research Institute
-* [The Interaction Design Lab](https://idl.fh-potsdam.de/people/frank-heidmann/): Dr. Frank Heidmann, University of Applied Sciences Potsdam, Germany, Human-Computer Interaction
-* [Visual Cinnamon](https://www.visualcinnamon.com/): Nadieh Bremer, Amsterdam, Netherlands
-* [Bocoup](https://bocoup.com/): Open Source Technology & Design Consulting
 
 * Inspired by Random walk (by Daniel Becker)
 * Inspired by The Art of Pi (by Nadieh Bremer)
