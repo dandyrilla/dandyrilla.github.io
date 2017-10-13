@@ -16,3 +16,9 @@ share: true
 ### microRNA 에 대한 설명
 
 * 
+
+
+
+### 그림이나 내용의 출처 표시
+
+* Figure adapted from Beerli et al., 1998.
