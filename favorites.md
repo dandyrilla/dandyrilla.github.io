@@ -21,6 +21,14 @@ permalink: /favorites/
 * [나의 큰 O는 logx야..](http://bab2min.tistory.com/): 프로그래밍, Python, 수학
 * [혜식이의 떼로 보는 세상](http://openlook.org/wp/): RNA 연구, 개인 유전체 분석, 시퀀싱 장비
 
+* [The Python Graph Gallery](https://python-graph-gallery.com/): 파이썬으로 그래프를 그릴 때 참고할 수 있는 샘플 코드. 여러가지 종류의 그래프 별로 matplotlib으로 그래프를 그릴 수 있는 python code snippet들을 잘 정리해 놓았다.
+* [Visual covabulary](ft.com/vocabulary): 총 64개의 차트를 9개 분류로 나누어 표현해 놓았다.
+* [뉴스젤리의 데이터 시각화로 보는 세상](http://blog.naver.com/datageeks)
+    * [시각화 유형의 한계를 극복하기 위한 시각화, 스몰 멀티플즈](http://blog.naver.com/datageeks/221106243674)
+    * [세상의 모든 차트에 대하여 - 차트 위키 제작 스토리](http://blog.naver.com/datageeks/220924543078)
+    * [뉴스젤리의 차트 위키에 사용된 스트레드시트 결과물](https://docs.google.com/spreadsheets/d/16Ii3pdCdVuKO4wrTJmKPLERGb-6L9OB6eX-DzwREqT4/edit#g)
+* [OpenVisConf](https://openvisconf.com/)
+
 * [Matplotlib tutorial](https://www.labri.fr/perso/nrougier/teaching/matplotlib/): matplotlib이 그림을 그리는 개념에 대한 소개
 * [파이콘 한국 2017](https://www.pycon.kr/2017/): 파이콘 한국 2017 발표 슬라이드
 * [GitHub:YeoLab](https://github.com/YeoLab)
@@ -35,3 +43,16 @@ permalink: /favorites/
 * [사소한 공상의 세계](http://dreame2000.blog.me/220915487511): 사회문제에 대하여 글을 조리있게 잘 쓰는 네이버 블로거
 * [만나씨이에이](http://www.mannacea.com/): 친환경 농법과 IT기술을 접목시킨 방법으로 농산물을 재배하는 스타트업
     * [만나박스](http://mannabox.co.kr/): 농업회사법인 만나씨이에이 주식회사의 농산물 판매 사이트
+
+
+
+### 시각화 관련
+
+* [The Gingras Laboratory](http://gingraslab.lunenfeld.ca/index.php): Tools for proteomics data, ProHits-Viz: webtool to improve visualization of protein interaction data (Nature Methods), Department of Molecular Genetics at the University of Toronto, The Lunenfeld-Tanenbaum Research Institute
+* [The Interaction Design Lab](https://idl.fh-potsdam.de/people/frank-heidmann/): Dr. Frank Heidmann, University of Applied Sciences Potsdam, Germany, Human-Computer Interaction
+* [Visual Cinnamon](https://www.visualcinnamon.com/): Nadieh Bremer, Amsterdam, Netherlands
+* [Bocoup](https://bocoup.com/): Open Source Technology & Design Consulting
+
+* Inspired by Random walk (by Daniel Becker)
+* Inspired by The Art of Pi (by Nadieh Bremer)
+* 나중에 [ETSY](https://www.etsy.com/)와 같은 곳에 판매해 보면 좋을 것 같다.
