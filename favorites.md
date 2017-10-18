@@ -27,6 +27,7 @@ permalink: /favorites/
 * [GitHub:YeoLab](https://github.com/YeoLab)
 * [GitHub:Illumina](https://github.com/Illumina): Strelka, hap.py
 * [GitHub:GoogleGenomics](https://github.com/googlegenomics): Tools for working with Google Genomics API
+* [소년코딩](http://boycoding.tistory.com): 자바스크립트 게임엔진 이야기
 
 
 ### 데이터 시각화 (data visualization)
