@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "파이썬 matplotlib 패키지"
-description: "matplotlib 사용법과 팁"
-tags: [python, matplotlib]
+title: "matplotlib 예제 스크립트"
+description: "파이썬의 matplotlib 패키지로 그릴 수 있는 다양한 그래프들과 스크립트를 정리합니다."
+tags: [python, matplotlib, examples, snippets]
 share: true
 comments: true
 ---
