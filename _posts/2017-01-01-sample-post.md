@@ -6,13 +6,12 @@ comments: true
 share: false
 ---
 
-#### 예정 포스트 목록 (_drafts)
+#### 예정 포스트 목록
 
 * 파워포인트로 그림 그리기 노하우
     * RNA hairpin structure 그리기
     * protein 그리기
     * 기울어진 화살표 그리기
-
 
 
 ### 1-1. 제목 정렬
