@@ -5,7 +5,8 @@ permalink: /favorites/
 
 ### 연구
 
-* [UCSC Genome Browser](https://genome.ucsc.edu/): UCSC 유전체 브라우저 (각 유전체별 브라우저 링크: [hg19](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19), [hg38](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38), [mm9](https://genome.ucsc.edu/cgi-bin/hgTracks?&db=mm9), [mm10](https://genome.ucsc.edu/cgi-bin/hgTracks?db=mm10))
+* [UCSC Genome Browser](https://genome.ucsc.edu/): UCSC 유전체 브라우저
+    * 각 유전체별 브라우저 링크: [hg19](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg19), [hg38](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38), [mm9](https://genome.ucsc.edu/cgi-bin/hgTracks?&db=mm9), [mm10](https://genome.ucsc.edu/cgi-bin/hgTracks?db=mm10)
 * [miRBase](http://www.mirbase.org/): microRNA 데이터베이스 (다운로드 페이지: [Release 20](ftp://mirbase.org/pub/mirbase/20/), [Release 21](ftp://mirbase.org/pub/mirbase/21/))
 * [TargetScan](http://www.targetscan.org/vert_71/): microRNA targets을 예측해주는 사이트
 

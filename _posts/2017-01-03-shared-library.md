@@ -38,6 +38,14 @@ collect2: ld returned 1 exit status
 make: *** [samtools] Error 1
 ```
 
+### 공유 라이브러리들이 위치하는 장소
+
+각 bin, include, lib, lib64, share, man 폴더들이 위치한다.
+
+* `/`
+* 
+
+
 
 ### 참고 명령어
 
