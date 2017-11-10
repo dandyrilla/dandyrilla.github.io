@@ -58,6 +58,12 @@ share: true
 * **DMS-MaPseq**: DMS mutational profiling with sequencing (Zubradt *et al*., 2017)
     * RT stop 방식 대신 RT mutation의 원리를 이용
 
+**기타 방법**
+
+* **PARIS**: RNA duplex를 seqeucning하는 방법 (Lu et al., 2016)
+
+
+---
 
 ### 리뷰 논문들
 

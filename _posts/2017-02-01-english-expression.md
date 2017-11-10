@@ -16,7 +16,7 @@ share: true
 
 또는 반대로 '이에 대한 연구는 일부분에만 국한되어 있다.'라는 형식으로 쓰는 경우도 있다.
 
-* "The modified base 5-methylcytosine (m5C) is well studied in DNA, but investigations of its prevalence in cellular RNA have been **largely confined to** tRNA and rRNA." (Squires *et al*., NAR, 2012)
+* "The modified base 5-methylcytosine (m5C) is well studied in DNA, but investigations of its prevalence in cellular RNA **have been largely confined to** tRNA and rRNA." (Squires *et al*., NAR, 2012)
 
 '앞으로 우리가 보일 연구 결과 없이는 해당 부분에 대해서는 알 수 없다.'라는 표현으로 접근하는 경우도 있습니다.
 

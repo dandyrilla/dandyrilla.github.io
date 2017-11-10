@@ -36,7 +36,13 @@ RNA modification은 수 년간 tRNA(transfer RNA)나 rRNA(ribosomal RNA)을 중�
 
 * (Ref. 7) Birkedal U, Christensen-DalsgaardM,Krogh N, Sabarinathan R, Gorodkin J, NielsenH. 2015. [Profiling of ribose methylations in RNA by high-throughput sequencing.](https://www.ncbi.nlm.nih.gov/pubmed/25417815) Angew. Chem. Int. Ed. 54:451–55
 
-참고: (Bevilacqua et al., Annu. Rev. Genet., 2016-11)
+
+참고한 리뷰논문들:
+
+* 2016-11, Bevilacqua, Annu. Rev. Genet.
+* 2017-06, Roundtree, Cell, [Dynamic RNA Modifications in Gene Expression Regulation](http://www.sciencedirect.com/science/article/pii/S0092867417306384?via%3Dihub)
+
+![Image](https://ars.els-cdn.com/content/image/1-s2.0-S0092867417306384-gr1.jpg "RNA modifications"){: .center-image}
 
 ---
 
