@@ -33,10 +33,11 @@ share: true
 
 #### 이 논문에서 말하고자 하는 내용
 
-주로 'Here, we show that'라는 부분으로 시작된다. 전체적으로 논문이 어떤 내용을 말하고자 하는지는 구조적으로 이 부분만 잘 찾으면 빠르게 훑어볼 수 있다.
+주로 'Here, we ...'라는 부분으로 시작된다. 전체적으로 논문이 어떤 내용을 말하고자 하는지는 구조적으로 이 부분만 잘 찾으면 빠르게 훑어볼 수 있습니다.
 
-* "**Here, we show that** m6A increases the accessibility of its surrounding RNA sequence to bind heterogeneous unclear ribonuclearprotein G (HNRNPG)." (Lin *et al*., NAR, 2017)
 * "**Here we present** a comprehensive analysis of pseudouridylation in Saccharomyces cerevisiae and human RNAs using Pseudo-seq." (Carlile *et al*., Nature, 2014)
+* "**Here, we develop** PARIS, a method based on reversible psoralen crosslinking for global mapping of RNA duplexes with near base-pair resolution in living cells." (Lu *et al*., Cell, 2016)
+* "**Here, we show that** m6A increases the accessibility of its surrounding RNA sequence to bind heterogeneous unclear ribonuclearprotein G (HNRNPG)." (Lin *et al*., NAR, 2017)
 
 
 
@@ -55,12 +56,11 @@ share: true
 
 
 
-### microRNA 에 대한 설명
+#### microRNA 에 대한 설명
 
 * miRNA
 
 
-
-### 그림이나 내용의 출처 표시
+#### 그림이나 내용의 출처 표시
 
 * Figure adapted from Beerli et al., 1998.
