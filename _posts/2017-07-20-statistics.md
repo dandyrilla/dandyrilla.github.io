@@ -8,12 +8,11 @@ comments: true
 ---
 
 
-### 통계적 결정
+### Classifciation evaluation
 
-|   | N   | P   |
-|---|---|---|
-| N | TN  | FN  |
-| P | FP  | TP  |
+개발된 모델에 의해 우리는 개별 사례들을 분류해야 하는 경우가 있습니다. 새로 개발된 바이러스 검사 키트를 이용해 사람들의 감염 여부를 판단해야 하는 경우를 예로 들 수 있습니다. 실제 바이러스에 감염된 사람과 감염되지 않은 사람을 정확히 가려낼 때 완벽한 검사 방법이라고 할 수 있습니다. 하지만 완벽하지 않은 경우들이 존재하므로, 얼마나 좋은 검사 방법인지를 판단할 수 있는 방법들이 있습니다.
+
+![Image](https://www.nature.com/nmeth/journal/v13/n8/images/nmeth.3945-F1.jpg "The confusion matrix"){: .center-image}
 
 
 
