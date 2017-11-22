@@ -1,6 +1,6 @@
 ---
-title: "즐겨찾기"
-permalink: /favorites/
+title: "links"
+permalink: /links/
 ---
 
 ### 연구
