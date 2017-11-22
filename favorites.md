@@ -47,7 +47,7 @@ permalink: /favorites/
 * [Bocoup](https://bocoup.com/): Open Source Technology & Design Consulting
 
 
-
+### 생활
 
 * [탱알캐리](http://taengal.tistory.com/): 호주 거주중인 티스토리 블로거, 외국에서 바라보는 한국에 대한 시선, 페미니즘 제대로 알리기
     * [헬조선 노트 4: 왜 애 엄마들은 백화점에서 '꿀'을 빨까](http://taengal.tistory.com/152)
@@ -55,9 +55,7 @@ permalink: /favorites/
 * [만나씨이에이](http://www.mannacea.com/): 친환경 농법과 IT기술을 접목시킨 방법으로 농산물을 재배하는 스타트업
     * [만나박스](http://mannabox.co.kr/): 농업회사법인 만나씨이에이 주식회사의 농산물 판매 사이트
 
-
-
-
+### 기타
 
 * Inspired by Random walk (by Daniel Becker)
 * Inspired by The Art of Pi (by Nadieh Bremer)
