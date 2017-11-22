@@ -7,22 +7,20 @@ comments: true
 share: true
 ---
 
-### cannot open shared object file 에러
+### cannot open shared object file
 
-해당 공유 라이브러리를 찾지 못해서 나는 에러이다.
+해당 공유 라이브러리를 찾지 못해서 나는 에러. 주로 HPC 컴퓨팅 시에 각 노드들의 환경이 달라 많이 발생한다.
 
 ```
 libstdc++.so.5: cannot open shared object file: No such file or directory
 libgcc_s.so.1: cannot open shared object file: No such file or directory
 ```
 
-### no version information available 에러
-
-해당 공유라이브러리는 찾았으나 버전 정보를 찾지 못하는 에러
+---
 
 ### undefined reference 에러
 
-마찬가지로 해당 공유 라이브러리는 찾았으나 라이브러리 안에 해당하는 함수가 없어서 나는 에러. 보통 구버전의 공유 라이브러리를 사용하려고 할 때 나타난다.
+해당 공유 라이브러리는 존재하지만 라이브러리 안에 해당하는 함수가 없어서 나는 에러. 보통 구버전의 공유 라이브러리를 사용하려고 할 때 나타난다.
 
 samtools 컴파일 시에 나타났던 에러였다.
 
@@ -38,16 +36,28 @@ collect2: ld returned 1 exit status
 make: *** [samtools] Error 1
 ```
 
+---
+
+### no version information available
+
+해당 공유라이브러리는 찾았으나 버전 정보를 찾지 못하는 에러. 하지만 실행에 문제를 일으키지는 않는 경우가 많다.
+
+---
+
 ### 공유 라이브러리들이 위치하는 장소
 
 각 bin, include, lib, lib64, share, man 폴더들이 위치한다.
 
-* `/`
-* 
+* `/bin` :
+* `/include` :
+* `/lib` : 라이브러리 기본 폴더
+* `/lib64` : 64비트 전용 라이브러리를 저장하는 폴더
+* `/share` : 
+* `/man` : 라이브러리에 대한 도움말(man 페이지)이 담겨있는 폴더
 
+---
 
-
-### 참고 명령어
+### 현재 실행 파일이 사용하고 있는 공유 라이브러리들의 목록
 
 `ldd (executable file)`: 현재 실행 파일이 사용하고 있는 공유 라이브러리들의 목록을 확인하는 명령어
 
