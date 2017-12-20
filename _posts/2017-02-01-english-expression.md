@@ -28,12 +28,12 @@ share: true
 연구하고 있는 분야의 중요성을 설명하기 위해 다양한 방법이 사용됩니다. 세포 내에서 가장 빈번히 일어나는 현상이라든가, ...
 
 * "Post-transcriptional modification of RNA nucleosides **occurs in all living organisms.**" (Carlile *et al*., Nature, 2014)
-* "N6-methyladenosine (m6A) is **the most abundant** internal modification in eukaryotic messenger RNA (mRNA), " (Lin *et al*., NAR, 2017)
+* "N6-methyladenosine (m6A) is **the most abundant** internal modification in eukaryotic messenger RNA (mRNA)" (Lin *et al*., NAR, 2017)
 
 
 #### 이 논문에서 말하고자 하는 내용
 
-주로 'Here, we ...'라는 부분으로 시작된다. 전체적으로 논문이 어떤 내용을 말하고자 하는지는 구조적으로 이 부분만 잘 찾으면 빠르게 훑어볼 수 있습니다.
+주로 'Here,'라는 부분으로 시작된다. 전체적으로 논문이 어떤 내용을 말하고자 하는지는 구조적으로 이 부분만 잘 찾으면 빠르게 훑어볼 수 있습니다.
 
 * "**Here we present** a comprehensive analysis of pseudouridylation in Saccharomyces cerevisiae and human RNAs using Pseudo-seq." (Carlile *et al*., Nature, 2014)
 * "**Here, we develop** PARIS, a method based on reversible psoralen crosslinking for global mapping of RNA duplexes with near base-pair resolution in living cells." (Lu *et al*., Cell, 2016)
@@ -64,3 +64,22 @@ share: true
 #### 그림이나 내용의 출처 표시
 
 * Figure adapted from Beerli et al., 1998.
+
+
+
+
+
+
+#### [Conserved non-coding elements: developmental gene regulation meets genome organization](https://academic.oup.com/nar/article/45/22/12611/4599184) (Polychronopoulos et al., NAR, 2017-11)
+
+Comparative genomics has revealed a class of non-protein-coding genomic sequences that display an extraordinary degree of conservation between two or more organisms, regularly exceeding that found within protein-coding exons. 비교 유전체학을 통해 놀라울 정도로 보존된 단백질을 암호화 하고 있지 않는 유전체 서열 부류들이 밝혀지고 있다. 심지어 이들의 보존도는 단백질을 암호화 하고 있는 엑손 부위보다도 높은 경우가 자주 있다.
+
+These elements, collectively referred to as conserved non-coding elements (CNEs), are non-randomly distributed across chromosomes and tend to cluster in the vicinity of genes with regulatory roles in multicellular development and differentiation. 보존된 비 암호화 서열(CNEs)이라고 불리우는 이러한 요소들은 염색체 상에 무작위로 배열되어 있지 않고 다세포 생물의 발달과 분화를 조절하는 유전자들 부근에 몰려 있는 경향이 있다.
+
+CNEs are organized into functional ensembles called genomic regulatory blocks–dense clusters of elements that collectively coordinate the expression of shared target genes, and whose span in many cases coincides with topologically associated domains. CNEs display sequence properties that set them apart from other sequences under constraint, and have recently been proposed as useful markers for the reconstruction of the evolutionary history of organisms.
+
+Disruption of several of these elements is known to contribute to diseases linked with development, and cancer.
+
+The emergence, evolutionary dynamics and functions of CNEs still remain poorly understood, and new approaches are required to enable comprehensive CNE identification and characterization.
+
+Here, we review current knowledge and identify challenges that need to be tackled to resolve the impasse in understanding extreme non-coding conservation.
