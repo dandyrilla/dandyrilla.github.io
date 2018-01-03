@@ -66,17 +66,9 @@ share: true
 * Figure adapted from Beerli et al., 1998.
 
 
-
-
-
-
 #### [Conserved non-coding elements: developmental gene regulation meets genome organization](https://academic.oup.com/nar/article/45/22/12611/4599184) (Polychronopoulos et al., NAR, 2017-11)
 
-우리가 흔히 유전자라고 했을 때는 단백질을 만들어내는 유전자만 생각하기 쉽지만, 단백질을 만들어내지 않는 유전자들도 있다. 지금까지 단백질을 만들어 기능하는 유전자들이 많이 연구되어 왔으며 주로 이러한 유전자들이 종간 보존도가 높은 것으로 알려져 왔다. 하지만 단백질을 암호화 하고 있는 엑손 부위들 보다도 종간 보존도가 높은 비 암호화 서열(conserved non-coding elements, CNEs)이 자주 발견되고 있는데, 이를 유전체 수준에서 밝히고자 하는 노력들을 언급한 리뷰가 나왔다.
-
-Comparative genomics has revealed a class of non-protein-coding genomic sequences that display an extraordinary degree of conservation between two or more organisms, regularly exceeding that found within protein-coding exons. 비교 유전체학을 통해 놀라울 정도로 보존된 단백질을 암호화 하고 있지 않는 유전체 서열 부류들이 밝혀지고 있다. 심지어 이들의 보존도는 단백질을 암호화 하고 있는 엑손 부위보다도 높은 경우가 자주 있다.
-
-These elements, collectively referred to as conserved non-coding elements (CNEs), are non-randomly distributed across chromosomes and tend to cluster in the vicinity of genes with regulatory roles in multicellular development and differentiation. 보존된 비 암호화 서열(CNEs)이라고 불리우는 이러한 요소들은 염색체 상에 무작위로 배열되어 있지 않고 다세포 생물의 발달과 분화를 조절하는 유전자들 부근에 몰려 있는 경향이 있다.
+우리가 흔히 유전자라고 했을 때는 단백질을 만들어내는 유전자만 생각하기 쉽지만, 단백질을 만들어내지 않는 유전자들도 있다. 지금까지 단백질을 만들어 기능하는 유전자들이 많이 연구되어 왔으며 주로 이러한 유전자들이 종간 보존도가 높은 것으로 알려져 왔다. 하지만 단백질을 암호화 하고 있는 엑손 부위들 보다도 종간 보존도가 높은 비 암호화 서열(conserved non-coding elements, CNEs)이 자주 발견되고 있는데, 이를 유전체 수준에서 밝히고자 하는 노력들을 언급한 리뷰가 나왔다. 이런 CNEs라고 불리우는 이러한 요소들은 염색체 상에 무작위로 배열되어 있지 않고 다세포 생물의 발달과 분화를 조절하는 유전자들 부근에 몰려 있는 경향이 있다고 한다.
 
 CNEs are organized into functional ensembles called genomic regulatory blocks–dense clusters of elements that collectively coordinate the expression of shared target genes, and whose span in many cases coincides with topologically associated domains. CNEs display sequence properties that set them apart from other sequences under constraint, and have recently been proposed as useful markers for the reconstruction of the evolutionary history of organisms.
 
