@@ -8,6 +8,37 @@ share: true
 ---
 
 
+### 리눅스 서버의 제품 모델명 알아내기
+
+리눅스 서버의 모델명을 알아내는 방법은 `dmidecode` 명령어를 쓰면 된다. root 권한으로 실행시켜야 한다.
+
+```
+[root@sirna1 project]# dmidecode --help
+Usage: dmidecode [OPTIONS]
+Options are:
+ -d, --dev-mem FILE     Read memory from device FILE (default: /dev/mem)
+ -h, --help             Display this help text and exit
+ -q, --quiet            Less verbose output
+ -s, --string KEYWORD   Only display the value of the given DMI string
+ -t, --type TYPE        Only display the entries of given type
+ -u, --dump             Do not decode the entries
+     --dump-bin FILE    Dump the DMI data to a binary file
+     --from-dump FILE   Read the DMI data from a binary file
+ -V, --version          Display the version and exit
+```
+
+간단히 알아보려면 `-s` 옵션을 쓰거나 `grep`으로 필요한 부분을 받아오면 된다.
+
+```
+[root@sirna1 project]# dmidecode -s system-product-name
+PowerEdge R210 II
+
+[root@sirna1 project]# dmidecode | grep "Product Name:"
+        Product Name: PowerEdge R210 II
+        Product Name: 09T7VV
+```
+
+
 ### iostat
 
 마스터의 상태
