@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "중복 계산을 줄여주는 파이썬 데코레이터"
-description: "파이썬 데코레이터를 이용하여 긴 파이프라인 중간에 생산된 데이터들을 자동 저장해두는 기능을 구현하는 내용입니다. (Python decorator for saving intermediate files during pipeline)"
-tags: [python tips, decorator]
+title: "Python decorator 활용법"
+description: "파이썬 데코레이터를 활용하여 분석의 효율성을 높였던 기록들입니다."
+tags: [python, decorator, tips]
 share: true
 comments: true
 ---
 
-본 포스팅은 중간 생산 데이터들을 저장해 두는 기능을 하는 파이썬 데코레이터를 이용하여 분석의 시간을 단축시키는 방법에 대한 내용을 담고 있습니다.
+### 중간 결과물을 또 다시 계산하는 일을 줄여보자: @cached 데코레이터
 
-다음과 같은 하나의 분석 파이프라인을 예제로 들어 설명해 보려고 합니다. 파이프라인을 구성하는 각 단계의 함수들을 설명하면 다음과 같습니다.
+파이프라인 중간에 계산한 데이터들을 저장해 두는 기능을 하는 파이썬 데코레이터를 이용하여 분석의 시간을 단축시키는 방법에 대한 내용을 소개해 보려고 합니다.
+
+ 먼저 다음과 같은 하나의 분석 파이프라인을 예제로 들어 설명해 보려고 합니다. 파이프라인을 구성하는 각 단계의 함수들을 설명하면 다음과 같습니다.
 
 * 첫 번째 단계의 `step1` 함수는 reference genome 버전에 맞게 인간 유전자들을 갖고 오는 역할을 하는 함수입니다. `step1` 함수의 첫 번째 인자는 `genome`인데, 이는 `'hg19'` 혹은 `'hg38'`과 같이 reference genome을 일컫는 문자열 값을 넣어줄 수 있습니다. 이 함수가 리턴하는 값은 `Gene`이라는 사용자 정의 클래스로 만들어진 인스턴스들을 갖는 리스트인 `genes`입니다.
 
@@ -102,3 +104,15 @@ step3('hg38', 'ACC001', 'ks')  # (3-5) changed statistical test from the case 3-
 ```
 
 읽어주셔서 감사합니다. 필요하신 분께는 도움이 되셨길 바랍니다.
+
+
+
+### 명령줄 리턴과 직접 실행의 두가지 기능을 동시에 하는 @qsubcommand 데코레이터
+
+작업 스케쥴러인 SGE를 쓰는 분들께 유용한 데코레이터를 하나 소개하려고 합니다.
+
+
+```python
+def qsubcommand():
+    pass
+```
