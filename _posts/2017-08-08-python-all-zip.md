@@ -68,3 +68,42 @@ is_sorted = all(x>y for x, y in zip(ages[:-1], ages[1:]))
 ```
 
 이것의 장점은 우리가 마음대로 판단의 내용을 정할 수 있다는 것입니다. 정순으로 정렬하고 싶으면 `x<y`, 역순으로 정렬하고 싶으면 `x>y`로 해주면 됩니다. 만약 ages라는 리스트가 같은 값을 여러 개 갖는 경우라면 위의 비교로는 정렬이 되지 않았다고 판단될 수 있습니다. 인접한 두 요소인 x와 y 값이 같은 값일 때에는 `x<y`나 `x>y` 모두 `False`이기 때문이지요. 그 때에는 정렬한 후 앞과 뒤의 값이 같을 수도 있으므로 `x<=y`(정순의 경우) 또는 `x>=y`(역순의 경우)로 바꿔주면 같은 값이 존재하더라도 전체적인 정렬 여부를 확인할 수 있습니다.
+
+
+### sorted 함수를 사용하는 방법보다 얼마나 더 빠를까?
+
+그렇다면, sorted 함수를 쓰는 것보다 얼마나 더 빨리 정렬 여부를 알아낼 수 있을까요? 실행시간을 비교하기 위해 다음 스크립트와 같이 백만(1,000,000)개의 무작위의 나이값을 가지는 리스트를 만들었습니다. 그리고 sorted 함수를 이용한 방법과 all과 zip만을 활용한 방법으로 정렬되었는지의 여부를 확인하고 그 실행시간을 다음과 같이 측정해보았습니다.
+
+```python
+ages = [random.randint(0,100) for i in range(10**6)]
+
+t1 = time.time()
+is_sorted = (ages == sorted(ages))
+t2 = time.time()
+
+print('is_sorted={}'.format(is_sorted), '{:.6f} secs'.format(t2-t1))
+
+t1 = time.time()
+is_sorted = all(x<=y for x, y in zip(ages[:-1], ages[1:]))
+t2 = time.time()
+
+print('is_sorted={}'.format(is_sorted), '{:.6f} secs'.format(t2-t1))
+```
+
+위와 같은 스크립트를 3번 실행하였고, 그 결과는 아래와 같았습니다.
+
+```python
+# 1st try:
+# is_sorted=False 0.283676 secs
+# is_sorted=False 0.013229 secs
+
+# 2nd try:
+# is_sorted=False 0.282903 secs
+# is_sorted=False 0.012725 secs
+
+# 3rd try:
+# is_sorted=False 0.284382 secs
+# is_sorted=False 0.013113 secs
+```
+
+sorted 함수를 이용하였을 때에는 약 0.284초, all과 zip을 이용하였을 때에는 0.013초가 걸렸네요. all과 zip만을 이용하여 정렬 여부를 확인하는 것이 약 **20배 빠른 성능**을 보여주었습니다.
