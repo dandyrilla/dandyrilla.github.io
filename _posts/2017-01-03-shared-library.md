@@ -42,6 +42,12 @@ make: *** [samtools] Error 1
 
 해당 공유라이브러리는 찾았으나 버전 정보를 찾지 못하는 에러. 하지만 실행에 문제를 일으키지는 않는 경우가 많다.
 
+```
+bin/ucsc/bigWigToWig: /lib64/libz.so.1: no version information available (required by bin/ucsc/bigWigToWig)
+```
+
+`readelf -V {exec}`: ELF 실행 파일의 현재 버전 정보를 보는 명령어
+
 ---
 
 ### 공유 라이브러리들이 위치하는 장소
