@@ -63,8 +63,6 @@ nav:
     url:            "/tags"
   - name:           "Github"
     url:            "https://github.com/dandyrilla"
-  - name:           "PUBG"
-    url:            "http://147.47.223.154:8888/Sukjun/?p=pubg"
   - name:           "Links"
     url:            "/links"
 
