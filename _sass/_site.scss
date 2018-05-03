@@ -8,16 +8,11 @@ html {
   font-family: $base-font;
   font-size: $base-font-size;
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
-  background-image: url("/assets/images/bg_header.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
 }
 
 .content-container {
@@ -46,8 +41,7 @@ body {
     font-weight: 600;
 
     a {
-      /* color: $base-color; */
-      color: $oc-gray-0;
+      color: $base-color;
       &:hover,
       &:focus {
         text-decoration: none;
