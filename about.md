@@ -15,6 +15,15 @@ Github
 : [github.com/dandyrilla](https://github.com/dandyrilla)
 
 
+### Education
+
+2006 - 2012
+: B.S. in Horticultural Science, College of Agriculture and Life Sciences, Seoul National University, South Korea
+
+2013 - Current
+: Ph.D. candidate in Computational Biology, College of Natural Sciences, Seoul National University, South Korea
+
+
 ### Publications
 
 * Doyeon Kim, You Me Sung, Jinman Park, **Sukjun Kim**, Jongkyu Kim, Junhee Park, Haeok Ha, Jung Yoon Bae, SoHui Kim and Daehyun Baek (2016). [General rules for functional microRNA targeting.](https://www.ncbi.nlm.nih.gov/pubmed/27776116) *Nature Genetics*
