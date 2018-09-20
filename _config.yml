@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "dandyrilla"
+name:               "dandyrilla.github.io"
 
 author:
   facebook:         dandyrilla
@@ -28,7 +28,7 @@ copyright:
 
 # Google-analytics
 google-analytics:
-  id:               ""
+  id:               "UA-126097508-1"
 
 # Disqus
 disqus:
