@@ -39,7 +39,7 @@ Sphinx는 기본적으로 우리가 만든 RestructuredText(reST, rst) 파일들
 진행한다. 여기서 rst 파일들을 소스, HTML 파일들을 빌드된 결과물이라고 한다. 두 번째로 이 빌드된 결과물이 담길
 '빌드 디렉토리'를 '소스 디렉토리'와 분리하여 관리할 것인지를 물어본다. 소스와 빌드 디렉토리를 분리하지 않으면
 `doc/_build`라는 폴더에 빌드를 저장하게 되고, 따로 구분하여 쓸 것이라면 `doc/_source`와 `doc/_build` 디렉토리가 따로
-생성된다. 나 같은 경우에는 분리하여 사용하는 편을 좋아해서 'y' 라고 입력하였다.
+생성된다. 개인적으로 소스와 빌드를 분리해 놓고 사용하는 편을 좋아해서 'y' 라고 입력하였다.
 
 ```
 You have two options for placing the build directory for Sphinx output.
