@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PyCharm 설정: Flask에서 사용하는 template folder 지정해 주기
+title: PyCharm 설정 - Flask에서 사용하는 template folder 지정해 주기
 description: Flask를 이용한 개발 진행에서 HTML template 파일들을 담고 있는 폴더를 PyCharm에게 알려주어 더 편리한 개발 환경을 제공하도록 설정해 줍니다.
 tags: [pycharm, settings, flask, template folder]
 comments: true
