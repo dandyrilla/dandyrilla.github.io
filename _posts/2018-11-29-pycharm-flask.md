@@ -1,7 +1,9 @@
 ---
 layout: post
-title: PyCharm에서 템플릿 폴더 지정하기
-description: Flask를 이용한 개발 진행에서 HTML template 파일들을 담고 있는 폴더를 PyCharm에게 알려주어 더 편리한 개발 환경을 제공하도록 설정해 줍니다.
+title: "PyCharm에서 템플릿 폴더 지정하기"
+description: >
+  Flask를 이용한 개발 진행에서 HTML template 파일들을 담고 있는 폴더를 PyCharm에게 알려주어 더 편리한 개발 환경을
+  제공하도록 설정해 줍니다.
 tags: [pycharm, settings, flask, template folder]
 comments: true
 share: true
