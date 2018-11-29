@@ -1,15 +1,26 @@
 ---
 layout: post
-title: "Sphinx로 파이썬 패키지를 문서화 시키기"
-description: "소스코드를 잘 문서화 시켜두는 것은 곧 기존 코드의 재사용성을 높이고 개발 생산성을 증가시킵니다. 개발하면서 문서화까지 작업할 수 있는 스핑크스(Sphinx)라는 문서화 도구를 이용해 패키지를 문서화 시키는 방법에 대하여 알아봅니다."
+title: "파이썬의 스핑크스(Sphinx)를 이용한 문서화"
+description: >
+  "스크립트를 잘 문서화 시켜두는 것은 곧 기존 코드의 재사용성을 높이고 개발 생산성을 증가시킵니다.
+  개발하면서 문서화까지 작업할 수 있는 파이썬의 스핑크스(Sphinx)라는 강력한 문서화 도구를 이용해 파이썬 패키지 또는
+  스크립트를 문서화 시키는 방법에 대하여 자세히 알아봅니다."
 tags: [sphinx, python documentation]
 share: true
 comments: true
 ---
 
-[Sphinx](http://www.sphinx-doc.org/en/stable/)로 문서화를 하고 싶은 폴더에서 다음과 같이 `sphinx-quickstart`를 실행시킨
-다. 그러면 몇 가지 항목을 물어본다. 첫 번째로 documentation을 저장해 놓을 경로를 물어본다. 보통 현재 디렉토리 내에 'doc'
-이라는 이름의 폴더를 만들어 보관하므로 `doc`을 입력해 주었다.
+
+## 문서 생성하기
+
+[Sphinx](http://www.sphinx-doc.org/en/stable/)는 쉽게 문서를 생성할 수 있도록 `sphinx-quickstart`라는 유틸리티를
+제공한다. 대화 형식으로 몇 가지 물어보는 설정 항목에 대답하고 나면 문서화를 바로 시작할 수 있도록 여러 파일들을 일일이
+만들어 줄 필요 없이 자동으로 생성해 준다. 자, 그럼 단계별로 따라가 보자.
+
+### Step 1. 문서의 최상위 디렉토리
+
+첫 번째로 문서를 저장해 놓을 경로를 물어본다. 보통 현재 디렉토리 내에 'doc' 이라는 이름의 폴더를 만들어 보관하므로
+`doc`을 입력해 주었다.
 
 ```
 $ sphinx-quickstart
@@ -22,19 +33,26 @@ Enter the root path for documentation.
 > Root path for the documentation [.]: doc
 ```
 
-두 번째로 빌드 디렉토리를 어디에 놓을 것인지를 물어본다. 소스와 빌드 디렉토리를 구분하지 않으면 `doc/_build`라는 폴더에
-빌드를 저장하게 되고, 따로 구분하여 쓸 것이라면 `doc/_source`와 `doc/_build` 디렉토리가 따로 생성된다. 기본값을 사용하기
-위해 엔터로 넘어간다.
+### Step 2. 빌드 디렉토리
+
+Sphinx는 기본적으로 우리가 만든 RestructuredText(reST, rst) 파일들을 이용하여 HTML 파일들을 만드는 과정으로 문서화를
+진행한다. 여기서 rst 파일들을 소스, HTML 파일들을 빌드된 결과물이라고 한다. 두 번째로 이 빌드된 결과물이 담길
+'빌드 디렉토리'를 '소스 디렉토리'와 분리하여 관리할 것인지를 물어본다. 소스와 빌드 디렉토리를 분리하지 않으면
+`doc/_build`라는 폴더에 빌드를 저장하게 되고, 따로 구분하여 쓸 것이라면 `doc/_source`와 `doc/_build` 디렉토리가 따로
+생성된다. 나 같은 경우에는 분리하여 사용하는 편을 좋아해서 'y' 라고 입력하였다.
 
 ```
 You have two options for placing the build directory for Sphinx output.
 Either, you use a directory "_build" within the root path, or you separate
 "source" and "build" directories within the root path.
-> Separate source and build directories (y/n) [n]:
+> Separate source and build directories (y/n) [n]: y
 ```
 
-세 번째로 루트 디렉토리 `doc` 내에 두 가지 폴더를 더 생성하는데, 생성할 폴더의 이름 앞에 붙는 prefix를 결정할 수 있다.
-여기에서도 기본값을 사용할 것이므로 엔터를 쳐서 넘어간다.
+### Step 3. 추가적으로 생성되는 폴더의 머릿글자
+
+세 번째로 루트 디렉토리 `doc` 내에 두 가지 폴더를 더 생성하는데,
+템플릿이 담길 '_templates' 폴더와 이미지, CSS, Javascript 등과 같은 정적 파일들이 담길 '_static' 폴더이다.
+생성할 폴더의 이름 앞에 붙는 prefix를 결정할 수 있다. 여기에선 기본값을 사용할 것이므로 엔터를 쳐서 넘어간다.
 
 ```
 Inside the root directory, two more directories will be created; "_templates"
@@ -42,6 +60,8 @@ for custom HTML templates and "_static" for custom stylesheets and other static
 files. You can enter another prefix (such as ".") to replace the underscore.
 > Name prefix for templates and static dir [_]:
 ```
+
+### Step 4. 프로젝트에 대한 정보
 
 프로젝트에 관한 내용을 물어본다. 프로젝트의 이름과 저자명을 입력한다. 그리고 프로젝트의 버전과 릴리즈 정보를 입력한다.
 
@@ -59,6 +79,8 @@ just set both to the same value.
 > Project release [1.0]:
 ```
 
+### Step 5. 언어 설정
+
 Sphinx document가 어떤 언어로 쓰여질지를 묻는 항목이다. 영어로 작성될 것이므로 그냥 기본값을 사용한다.
 
 ```
@@ -71,7 +93,10 @@ http://sphinx-doc.org/config.html#confval-language.
 > Project language [en]:
 ```
 
-만들어지는 소스 파일의 확장자를 입력한다. 기본값 그대로 사용한다.
+### Step 6. 소스 파일의 종류
+
+Sphinx는 기본적으로 RestructuredText 형식을 소스 파일로 사용한다. 이 소스 파일의 확장자를 입력한다.
+기본값 그대로 사용할 것이므로 이 역시 엔터를 쳐서 넘어간다.
 
 ```
 The file name suffix for source files. Commonly, this is either ".txt"
@@ -79,7 +104,9 @@ or ".rst".  Only files with this suffix are considered documents.
 > Source file suffix [.rst]:
 ```
 
-목차 문서를 따로 갖고있지 않으므로 그냥 넘어간다.
+### Step 7. 문서의 시작 지점 설정
+
+문서의 시작 지점을 설정하는 부분이다. 'index' 라는 이름을 그대로 사용할 것이므로 엔터를 쳐서 넘어간다.
 
 ```
 One document is special in that it is considered the top node of the
@@ -89,7 +116,10 @@ document is a custom template, you can also set this to another filename.
 > Name of your master document (without suffix) [index]:
 ```
 
-각종 설정을 물어본다. 필요한 것에만 y를 입력한다.
+### Step 8. 추가 기능
+
+추가 기능들을 사용할 것인지를 물어본다. 파이썬 스크립트를 보고 자동으로 문서를 만들어주는 'autodoc',
+문서 간 참조를 위한 'intersphinx' 등 추가 기능에 대해 'y'를 입력하였다.
 
 ```
 Sphinx can also add configuration for epub output:
@@ -108,8 +138,10 @@ Please indicate if you want to use one of the following Sphinx extensions:
 > githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]:
 ```
 
-make를 통해 문서를 간편히 제작할 수 있도록 해주는 부가 파일들을 만들건지를 물어본다. 리눅스에서 사용할 것이므로 Makefile
-만 만들고 윈도우용 .bat 파일은 따로 만들지 않기로 했다.
+### Step 9. 빌드 스크립트 설정
+
+make를 통해 문서를 간편히 빌드할 수 있도록 해주는 부가 파일들을 만들건지를 물어본다.
+리눅스에서 사용할 것이므로 Makefile 만 만들고 윈도우용 .bat 파일은 따로 만들지 않기로 했다.
 
 ```
 A Makefile and a Windows command file can be generated for you so that you
@@ -123,6 +155,8 @@ Creating file doc/index.rst.
 Creating file doc/Makefile.
 ```
 
+### Step 10. 문서 생성 완료
+
 초기 설정이 모두 완성되었다! html 문서를 빌드하려면 이제 `make html`과 같이 입력하여 간편하게 문서를 만들 수 있다.
 
 ```
@@ -135,7 +169,7 @@ where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 ```
 
 
-### 참고
+## 참고
 
 * [tech.ssut - Python 문서화, Sphinx로 아주 간단하게 시작해보기](https://tech.ssut.me/2015/07/28/start-python-documentation-using-sphinx/)
 * [Sphinx로 TIL 문서 페이지 만들기](https://songyunseop.github.io/post/2017/11/setting-til-page-with-sphinx/)
