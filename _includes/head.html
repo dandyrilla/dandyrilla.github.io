@@ -15,7 +15,9 @@
 
     {% seo %}
 
-    {% include google-adsense.html %}
     {% include google-analytics.html %}
 
+    {% if page.layout == 'post' %}
+    {% include google-adsense.html %}
+    {% endif %}
 </head>
