@@ -17,7 +17,7 @@ comments: true
 제공한다. 대화 형식으로 몇 가지 물어보는 설정 항목에 대답하고 나면 문서화를 바로 시작할 수 있도록 여러 파일들을 일일이
 만들어 줄 필요 없이 자동으로 생성해 준다. 자, 그럼 단계별로 따라가 보자.
 
-### Step 1. 문서의 최상위 디렉토리
+### Step 1. 루트 디렉토리
 
 첫 번째로 문서를 저장해 놓을 경로를 물어본다. 보통 현재 디렉토리 내에 'doc' 이라는 이름의 폴더를 만들어 보관하므로
 `doc`을 입력해 주었다.
@@ -50,7 +50,7 @@ Either, you use a directory "_build" within the root path, or you separate
 
 ### Step 3. 추가적으로 생성되는 폴더의 머릿글자
 
-세 번째로 루트 디렉토리 `doc` 내에 두 가지 폴더를 더 생성하는데,
+세 번째로, Sphinx 는 루트 디렉토리 `doc` 내에 두 가지 폴더를 더 생성하는데,
 템플릿이 담길 '_templates' 폴더와 이미지, CSS, Javascript 등과 같은 정적 파일들이 담길 '_static' 폴더이다.
 생성할 폴더의 이름 앞에 붙는 prefix를 결정할 수 있다. 여기에선 기본값을 사용할 것이므로 엔터를 쳐서 넘어간다.
 
@@ -79,9 +79,9 @@ just set both to the same value.
 > Project release [1.0]:
 ```
 
-### Step 5. 언어 설정
+### Step 5. 문서화 언어 설정
 
-Sphinx document가 어떤 언어로 쓰여질지를 묻는 항목이다. 영어로 작성될 것이므로 그냥 기본값을 사용한다.
+문서가 어떤 언어로 쓰여질지를 묻는 항목이다. 영어로 작성될 것이므로 그냥 기본값을 사용한다.
 
 ```
 If the documents are to be written in a language other than English,
@@ -93,9 +93,9 @@ http://sphinx-doc.org/config.html#confval-language.
 > Project language [en]:
 ```
 
-### Step 6. 소스 파일의 종류
+### Step 6. 소스 파일의 확장자
 
-Sphinx는 기본적으로 RestructuredText 형식을 소스 파일로 사용한다. 이 소스 파일의 확장자를 입력한다.
+Sphinx 는 기본적으로 RestructuredText 형식을 소스 파일로 사용한다. 이 소스 파일의 확장자를 입력한다.
 기본값 그대로 사용할 것이므로 이 역시 엔터를 쳐서 넘어간다.
 
 ```
@@ -116,7 +116,7 @@ document is a custom template, you can also set this to another filename.
 > Name of your master document (without suffix) [index]:
 ```
 
-### Step 8. 추가 기능
+### Step 8. 추가 기능 선택
 
 추가 기능들을 사용할 것인지를 물어본다. 파이썬 스크립트를 보고 자동으로 문서를 만들어주는 'autodoc',
 문서 간 참조를 위한 'intersphinx' 등 추가 기능에 대해 'y'를 입력하였다.
@@ -138,7 +138,7 @@ Please indicate if you want to use one of the following Sphinx extensions:
 > githubpages: create .nojekyll file to publish the document on GitHub pages (y/n) [n]:
 ```
 
-### Step 9. 빌드 스크립트 설정
+### Step 9. 빌드 스크립트 생성
 
 make를 통해 문서를 간편히 빌드할 수 있도록 해주는 부가 파일들을 만들건지를 물어본다.
 리눅스에서 사용할 것이므로 Makefile 만 만들고 윈도우용 .bat 파일은 따로 만들지 않기로 했다.
@@ -155,7 +155,7 @@ Creating file doc/index.rst.
 Creating file doc/Makefile.
 ```
 
-### Step 10. 문서 생성 완료
+### Step 10. 설정 완료
 
 초기 설정이 모두 완성되었다! html 문서를 빌드하려면 이제 `make html`과 같이 입력하여 간편하게 문서를 만들 수 있다.
 
