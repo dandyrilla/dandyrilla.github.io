@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "이해해보는 양자역학"
-description: "양자역학에 대하여 부산대 물리교육과 김상욱 교수님이 강연한 영상을 요약해 봤습니다."
+title: "김상욱 교수가 알려주는 양자역학"
+description: "EBS 특별기획 통찰에서 방송된 양자역학에 대한 김상욱 교수의 강연을 요약해 봤습니다."
 tags: [quantum computing]
 share: true
 comments: true
