@@ -18,20 +18,25 @@ libgcc_s.so.1: cannot open shared object file: No such file or directory
 
 ---
 
-### undefined reference 에러
+### undefined reference to
 
-해당 공유 라이브러리는 존재하지만 라이브러리 안에 해당하는 함수가 없어서 나는 에러. 보통 구버전의 공유 라이브러리를 사용하려고 할 때 나타난다.
+해당 공유 라이브러리는 존재하지만 라이브러리 안에 해당하는 함수가 없어서 나는 에러. 보통 구버전의 공유 라이브러리를
+사용하려고 할 때 나타난다.
 
-samtools 컴파일 시에 나타났던 에러였다.
+samtools 컴파일 시에 나타났던 에러
 
 ```
 gcc -pthread -o samtools bam_index.o bam_plcmd.o sam_view.o bam_cat.o bam_md.o bam_reheader.o bam_sort.o bedidx.o kprobaln.o bam_rmdup.o bam_rmdupse.o bam_mate.o bam_stat.o bam_color.o bamtk.o bam2bcf.o bam2bcf_indel.o errmod.o sample.o cut_target.o phase.o bam2depth.o padding.o bedcov.o bamshuf.o faidx.o stats.o stats_isize.o bam_flags.o bam_split.o bam_tview.o bam_tview_curses.o bam_tview_html.o bam_lpileup.o libbam.a htslib-1.2.1/libhts.a  -lcurses  -lm -lz
+
 bedidx.o: In function `bed_read':
 /home/lab/bin/samtools-1.2/bedidx.c:170: undefined reference to `gzopen64'
+
 phase.o: In function `loadpos':
 /home/lab/bin/samtools-1.2/phase.c:507: undefined reference to `gzopen64'
+
 bedcov.o: In function `main_bedcov':
 /home/lab/bin/samtools-1.2/bedcov.c:98: undefined reference to `gzopen64'
+
 collect2: ld returned 1 exit status
 make: *** [samtools] Error 1
 ```
@@ -40,11 +45,13 @@ make: *** [samtools] Error 1
 
 ### no version information available
 
-해당 공유라이브러리는 찾았으나 버전 정보를 찾지 못하는 에러. 하지만 실행에 문제를 일으키지는 않는 경우가 많다.
+bigWigToWig 를 실행시켰을 때 다음과 같은 에러 메시지가 나타난다.
 
 ```
 bin/ucsc/bigWigToWig: /lib64/libz.so.1: no version information available (required by bin/ucsc/bigWigToWig)
 ```
+
+원인: 해당 공유라이브러리는 찾았으나 버전 정보를 찾지 못하는 에러. 하지만 실행에 문제를 일으키지는 않는 경우가 많다.
 
 `readelf -V {exec}`: ELF 실행 파일의 현재 버전 정보를 보는 명령어
 

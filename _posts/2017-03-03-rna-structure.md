@@ -21,7 +21,10 @@ share: true
 
 ### RNA 2차 구조는 어떻게 알아낼까요?
 
-유전자 조절의 중요한 포인트 중 하나로 RNA가 각광받으면서 RNA 2차 구조를 알아낼 수 있는 방법들이 많이 연구되어 보고되고 있습니다. 당연한 이야기겠지만, RNA 2차 구조는 nucleotide가 paired 상태인지 unpaired 상태인지를 구분하는 원리를 이용합니다. 구분해주는 역할을 어떤 material이 해주느냐에 따라 enzymatic과 chemical 방법으로 나누어볼 수 있습니다. 또한 NGS 기술을 접목하면 단일 염기 단위에서 genome-wide하게 살펴볼 수도 있습니다.
+유전자 조절의 중요한 포인트 중 하나로 RNA가 각광받으면서 RNA 2차 구조를 알아낼 수 있는 방법들이 많이 연구되어 보고되고
+있습니다. 당연한 이야기겠지만, RNA 2차 구조는 nucleotide가 paired 상태인지 unpaired 상태인지를 구분하는 원리를
+이용합니다. 구분해주는 역할을 어떤 material이 해주느냐에 따라 enzymatic과 chemical 방법으로 나누어볼 수 있습니다.
+또한 NGS 기술을 접목하면 단일 염기 단위에서 genome-wide하게 살펴볼 수도 있습니다.
 
 **Enzyme을 이용한 방법**
 
