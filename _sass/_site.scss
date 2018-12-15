@@ -195,16 +195,22 @@ html, body {
       }
     }
 
+    &-date {
+      color: $base-lighten-color;
+      font-size: .8rem;
+      text-transform: uppercase;
+    }
+
     &-title {
       margin-bottom: .3rem;
       font-size : 1.8rem;
       font-weight: 600;
     }
 
-    &-date {
-      color: $base-lighten-color;
-      font-size: .8rem;
-      text-transform: uppercase;
+    &-image {
+      img {
+        margin-bottom: .3rem;
+      }
     }
 
     &-desc {

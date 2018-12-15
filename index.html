@@ -32,6 +32,11 @@ layout: default
             <div class="list-post-title">
                 {{ post.title }}
             </div>
+            {% if post.image %}
+            <div class="list-post-image">
+                <img src="{{ post.image }}">
+            </div>
+            {% endif %}
             {% if post.description %}
             <div class="list-post-desc">
                 {{ post.description }}
