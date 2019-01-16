@@ -1,0 +1,51 @@
+---
+layout: page
+title: Reverse complement
+toolbox: yes
+---
+<div class="suite">
+
+    <!-- description -->
+    <p>
+        Reverse Complement converts a DNA sequence into its reverse, complement, or reverse-complement counterpart.
+        You may want to work with the reverse-complement of a sequence if it contains an ORF on the reverse strand.
+    </p>
+
+    <!-- input form -->
+    <form name="main_form" id="main_form">
+        <label for="elem-input">Paste the raw or FASTA sequence into the text area below:</label>
+        <div class="input-group mb-3">
+            <textarea id="elem-input" class="form-control text-monospace" rows="12">&gt;Sample sequence 1
+ATGGATGATGATATCGCCGCGCTCGTCGTCGACAACGGCTCCGGCATGTGCAAGGCCGGC
+
+&gt;Sample sequence 2
+GACCCCTGGACCACCAGCCCCAGCAAGAGCACAAGAGGAAGAGAGAGACCCTCACTGCTG
+GGGAGTCCCTGCCACACTCAGTCCCCCACCACACTGAATCTCCCCTCCTCACAGTTGCCA
+TGTAGACCCCTTGAAGAGGGGAGGGGCCTA
+
+>Sample sequence 3
+tgtcgggTAGCTTATCAGACTGATGTTGActgttgaatctcatggCAACACCAGTCGATGGGCTGTctgaca</textarea>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="elem-select">Method</label>
+            </div>
+            <select class="custom-select" id="elem-select">
+                <option value="rc" selected="selected">Reverse-complement</option>
+                <option value="r">Reverse</option>
+                <option value="c">Complement</option>
+            </select>
+            <div class="input-group-append">
+                <button type="button" class="btn btn-outline-secondary" onclick="clearInput();">Clear</button>
+                <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                <button type="button" class="btn btn-primary" onclick="try{revCom()} catch(e) {alert('The following error was encountered: ' + e);}">Submit</button>
+            </div>
+        </div>
+    </form>
+
+    <!-- output -->
+    <label for="elem-output">You can see the result here:</label>
+    <div id="elem-output" class="text-monospace revcom-output"></div>
+</div>
+<script src="{{ site.base_url }}/assets/js/toolbox.js"></script>
+<script src="{{ site.base_url }}/assets/js/toolbox-revcom.js"></script>
