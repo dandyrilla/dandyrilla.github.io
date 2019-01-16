@@ -4,14 +4,21 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 
     <!-- CSS -->
+    {% if page.toolbox %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/toolbox.css" type="text/css">
+    {% endif %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" type="text/css">
-    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.ico"/>
 
     <!-- Font -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.ico"/>
+
+    <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
 
     {% seo %}

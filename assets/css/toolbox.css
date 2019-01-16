@@ -1,0 +1,8 @@
+.revcom-output {
+    overflow-wrap: break-word;
+    background-color: #efefef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    min-height: 150px;
+}
