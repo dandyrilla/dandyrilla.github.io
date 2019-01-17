@@ -25,8 +25,8 @@ Date.prototype.toWeekString = function() {
 
 	// Thursday in current week decides the year.
 	let thu = new Date(this.getFullYear(), this.getMonth(), this.getDate() + 3 - this.getDayM() + offset * 7);
-	let mon = new Date(this.getFullYear(), this.getMonth(), thu.getDate() - 3);  // monday
-	let sat = new Date(this.getFullYear(), this.getMonth(), thu.getDate() + 2);  // saturday
+	let mon = new Date(thu.getFullYear(), thu.getMonth(), thu.getDate() - 3);  // monday
+	let sat = new Date(thu.getFullYear(), thu.getMonth(), thu.getDate() + 2);  // saturday
 
 	// January 4 is always in week 1.
 	let week1 = new Date(thu.getFullYear(), 0, 4);
