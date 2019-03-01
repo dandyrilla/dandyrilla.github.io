@@ -1,10 +1,16 @@
 ---
-layout: page
+layout: toolbox
 title: Week number
-toolbox: yes
 ---
-<div class="toolbox">
-    <p>Used for weekly directory name in research project.</p>
+<div class="container">
+
+    <div class="py-5 text-center">
+        <h2>{{ page.title }}</h2>
+        <p class="lead">
+            Used for weekly directory name in research project.
+        </p>
+    </div>
+
     <div class="text-center">
         <div class="lead rounded mb-3" id="wn-text"></div>
         <div class="btn-group">
@@ -13,5 +19,10 @@ toolbox: yes
             <button id="wn-btn-next" class="btn btn-outline-primary">Next <i class="fa fa-angle-right"></i></button>
         </div>
     </div>
+
+    <footer class="my-5 text-muted text-center text-small">
+        <p>© 2019 dandyrilla. All rights reserved.</p>
+    </footer>
+
 </div>
 <script src="{{ site.base_url }}/assets/js/toolbox-weeknum.js"></script>

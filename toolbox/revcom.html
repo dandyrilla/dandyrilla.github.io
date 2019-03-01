@@ -1,18 +1,18 @@
 ---
-layout: page
-title: Reverse complement
-toolbox: yes
+layout: toolbox
+title: Reverse Complement
 ---
-<div class="toolbox">
+<div class="container">
 
-    <!-- description -->
-    <p>
-        Reverse Complement converts a DNA sequence into its reverse, complement, or reverse-complement counterpart.
-        You may want to work with the reverse-complement of a sequence if it contains an ORF on the reverse strand.
-    </p>
+    <div class="py-5 text-center">
+        <h2>{{ page.title }}</h2>
+        <p class="lead">
+            Reverse Complement converts a DNA sequence into its reverse, complement, or reverse-complement counterpart.
+            You may want to work with the reverse-complement of a sequence if it contains an ORF on the reverse strand.
+        </p>
+    </div>
 
-    <!-- input form -->
-    <form name="main_form" id="main_form">
+    <div class="form-group">
         <label for="elem-input">Paste the raw or FASTA sequence into the text area below:</label>
         <div class="input-group mb-3">
             <textarea id="elem-input" class="form-control text-monospace" rows="12">&gt;Sample sequence 1
@@ -26,26 +26,32 @@ TGTAGACCCCTTGAAGAGGGGAGGGGCCTA
 >Sample sequence 3
 tgtcgggTAGCTTATCAGACTGATGTTGActgttgaatctcatggCAACACCAGTCGATGGGCTGTctgaca</textarea>
         </div>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <label class="input-group-text" for="elem-select">Method</label>
-            </div>
-            <select class="custom-select" id="elem-select">
-                <option value="rc" selected="selected">Reverse-complement</option>
-                <option value="r">Reverse</option>
-                <option value="c">Complement</option>
-            </select>
-            <div class="input-group-append">
-                <button type="button" class="btn btn-outline-secondary" onclick="clearInput();">Clear</button>
-                <button type="reset" class="btn btn-outline-secondary">Reset</button>
-                <button type="button" class="btn btn-primary" onclick="try{revCom()} catch(e) {alert('The following error was encountered: ' + e);}">Submit</button>
-            </div>
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="elem-select">Method</label>
         </div>
-    </form>
+        <select class="custom-select" id="elem-select">
+            <option value="rc" selected="selected">Reverse-complement</option>
+            <option value="r">Reverse</option>
+            <option value="c">Complement</option>
+        </select>
+        <div class="input-group-append">
+            <button type="button" class="btn btn-outline-secondary" onclick="clearInput();">Clear</button>
+            <button type="reset" class="btn btn-outline-secondary">Reset</button>
+            <button type="button" class="btn btn-primary" onclick="try{revCom()} catch(e) {alert('The following error was encountered: ' + e);}">Submit</button>
+        </div>
+    </div>
 
     <!-- output -->
     <label for="elem-output">You can see the result here:</label>
     <div id="elem-output" class="text-monospace revcom-output"></div>
+
+    <footer class="my-5 text-muted text-center text-small">
+        <p>© 2019 dandyrilla. All rights reserved.</p>
+    </footer>
 </div>
+
 <script src="{{ site.base_url }}/assets/js/toolbox.js"></script>
 <script src="{{ site.base_url }}/assets/js/toolbox-revcom.js"></script>
