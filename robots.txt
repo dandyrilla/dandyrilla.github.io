@@ -3,3 +3,4 @@ Disallow: /
 Allow: /about/
 Allow: /toolbox/
 Allow: /*-*-*/
+Sitemap: https://dandyrilla.github.io/sitemap.xml
