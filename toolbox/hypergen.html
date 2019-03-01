@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hyperlink Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.hypergen.ico"/>
+</head>
+
+<body class="bg-light">
+    <div class="container">
+
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="/assets/images/brand.hypergen.svg" alt width="72" height="72">
+            <h2>Hyperlink Generator</h2>
+            <p class="lead">
+                Generates links from cartesian product of parameters.<br/>
+                Wrap the parameters with a pair of braces and separate them by comma: {a,b,c}.<br/>
+                Click <a href="javascript:void(0);" onclick="showExample();">here</a> to show an example.
+            </p>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="showUrl">
+                    <label class="custom-control-label" for="showUrl">Show URL</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="clearPrev" checked>
+                    <label class="custom-control-label" for="clearPrev">Clear the previous</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input type="text" class="form-control" id="url-input" placeholder="Input URL and press enter."
+                   onkeydown="if (event.which == 13 || event.keyCode == 13) {createList();}">
+        </div>
+
+        <div id="url-list" class="list-group">
+        </div>
+
+        <footer class="my-5 text-muted text-center text-small">
+            <p>Copyright © 2019 Sukjun Kim</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function clearChild(elem) {
+            while (elem.firstChild) {
+                elem.removeChild(elem.firstChild);
+            }
+        }
+
+        function product(arr)
+        {
+            return arr.reduce(function(a,b){
+                return a.map(function(x){
+                    return b.map(function(y){
+                        return x.concat(y);
+                    })
+                }).reduce(function(a,b){ return a.concat(b) },[])
+            }, [[]])
+        }
+
+        function createListItem(endpoint, showUrl) {
+
+            let a = document.createElement("a");
+            a.className = "list-group-item list-group-item-action text-break";
+            a.href = endpoint.path;
+            a.target = '_blank';
+            if (showUrl) {
+                a.innerHTML = '';
+                endpoint.paths.forEach(function (path, index, array) {
+                    a.innerHTML += path.param ? ('<span class="font-weight-bold">' + path.value + '</span>') : path.value;
+                });
+            } else {
+                a.innerText = endpoint.param.join(", ");
+            }
+
+            return a;
+        }
+
+        function createList() {
+
+            let text = document.getElementById("url-input").value;
+            let regex = /\{[^{}]+\}/g;
+            let token = text.split(regex);
+            let ntoken = token.length;
+
+            let matches = text.match(regex);
+
+            if (matches != null) {
+                let params = matches.map(function (item, index, array) {
+                    return item.replace(/{|}/g, "").split(",");
+                });
+
+                let results = product(params);
+                let endpoints = [];
+                results.forEach(function (item, index, array) {
+
+                    let paths = [{'param': false, 'value': token[0]}];
+                    for (let i = 0; i < ntoken - 1; i++) {
+                        paths.push({'param': true, 'value': array[index][i]});
+                        paths.push({'param': false, 'value': token[i+1]});
+                    }
+                    let path = paths.map(function (item, index, array) { return item.value; }).join("");
+                    let endpoint = {param: item, paths: paths, path: path};
+                    endpoints.push(endpoint);
+                });
+
+                let div = document.getElementById("url-list");
+                let showUrl = document.getElementById("showUrl").checked;
+
+                let clearPrev = document.getElementById("clearPrev").checked;
+                if (clearPrev) {
+                    clearChild(div);
+                }
+
+                for (let i = 0; i < endpoints.length; i++) {
+                    let endpoint = endpoints[i];
+                    let a = createListItem(endpoint, showUrl);
+                    div.appendChild(a);
+                }
+            }
+        }
+
+        function showExample() {
+            document.getElementById("url-input").value = "http://hostname/results/{human,mouse}/treatment-{24hr,48hr,72hr}.txt";
+            createList();
+        }
+    </script>
+</body>
+
+</html>
