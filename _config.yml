@@ -61,6 +61,8 @@ nav:
     url:            "/archive"
   - name:           "Tags"
     url:            "/tags"
+  - name:           "Toolbox"
+    url:            "/toolbox"
   - name:           "Github"
     url:            "https://github.com/dandyrilla"
   - name:           "Links"
