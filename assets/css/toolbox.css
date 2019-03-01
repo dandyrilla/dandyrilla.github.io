@@ -55,17 +55,3 @@
     padding: .375rem .75rem;
     min-height: 150px;
 }
-
-
-/* weeknum */
-
-#wn-text {
-    background-color: #eee;
-    padding: .375rem .75rem;
-    cursor: pointer;
-}
-
-#wn-text:hover {
-    color: white;
-    background-color: #999;
-}

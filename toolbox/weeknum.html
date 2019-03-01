@@ -7,17 +7,20 @@ title: Week number
     <div class="py-5 text-center">
         <h2>{{ page.title }}</h2>
         <p class="lead">
-            Used for weekly directory name in research project.
+            Week number of the this week. It can be used for naming weekly directory.
         </p>
     </div>
 
-    <div class="text-center">
-        <div class="lead rounded mb-3" id="wn-text"></div>
+    <div class="text-center mb-3">
         <div class="btn-group">
-            <button id="wn-btn-prev" class="btn btn-outline-primary"><i class="fa fa-angle-left"></i> Prev</button>
+            <button id="wn-btn-prev"  class="btn btn-outline-primary"><i class="fa fa-angle-left"></i> Prev</button>
             <button id="wn-btn-today" class="btn btn-outline-primary">Today</button>
-            <button id="wn-btn-next" class="btn btn-outline-primary">Next <i class="fa fa-angle-right"></i></button>
+            <button id="wn-btn-next"  class="btn btn-outline-primary">Next <i class="fa fa-angle-right"></i></button>
         </div>
+    </div>
+
+    <div class="text-center">
+        <a href="javascript:void(0);" id="wn-text" class="btn btn-lg btn-primary"></a>
     </div>
 
     <footer class="my-5 text-muted text-center text-small">
