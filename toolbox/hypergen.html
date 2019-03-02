@@ -35,8 +35,18 @@ favicon: favicon.hypergen.ico
                onkeydown="if (event.which == 13 || event.keyCode == 13) {createList();}">
     </div>
 
-    <div id="url-list" class="list-group">
+    <div class="row mb-5">
+        <div id="url-list" class="list-group">
+        </div>
     </div>
+
+    <!-- Disqus -->
+    {% if page.comments != false and site.disqus.id %}
+    <div class="post-disqus">
+        <section id="disqus_thread"></section>
+        {% include disqus.html %}
+    </div>
+    {% endif %}
 
     <footer class="my-5 text-muted text-center text-small">
         <p>© 2019 dandyrilla. All rights reserved.</p>
