@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Apache 설정"
+title: "Apache HTTP 서버 설정하기"
 description: "아파치 웹 서버 설정 방법을 알아봅니다."
-tags: [web server, apache]
+tags: [apache, http server, web server]
 comments: true
 share: true
 ---
 
 ### 아파치 웹 서비스 데몬 시작하기
 
-아파치는 웹 서비스를 제공해주는 데몬 프로그램이다. 대부분의 리눅스 서버에는 아파치가 기본적으로 설치되어 있다. 아차피를
-이용하여 웹 서비스를 한번 구동시켜 보자. 일단, 현재 사용하고 있는 서버에서 서비스가 구동되고 있는지를 확인해봐야 한다.
-service 명령어를 이용하므로 root 계정으로 들어가서 아래와 같은 명령어로 확인해볼 수 있다.
+아파치 HTTP 서버는 웹 서비스를 제공해주는 데몬 프로그램이다. 대부분의 리눅스 서버에는 아파치가 기본적으로 설치되어 있다.
+아차피를 이용하여 웹 서비스를 한번 구동시켜 보자. 일단, 현재 사용하고 있는 서버에서 서비스가 구동되고 있는지를
+확인해봐야 한다. service 명령어를 이용하므로 root 계정으로 들어가서 아래와 같은 명령어로 확인해볼 수 있다.
 
 ```
 [root@sirna1 ~]# service httpd status
