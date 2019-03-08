@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Git을 이용하여 소스코드의 버전관리를 해 보자"
-description: "리눅스 환경의 로컬에서 현재 작업하고 있는 소스코드를 Git을 이용하여 버전관리를 시작하고 원격 저장소인 GitHub에 올려 동기화하는 내용들을 순차적으로 살펴볼 것입니다."
+description: >
+  리눅스 환경의 로컬에서 현재 작업하고 있는 소스코드를 Git을 이용하여 버전관리를 시작하고 원격 저장소인 GitHub에 올려
+  동기화하는 내용들을 순차적으로 살펴볼 것입니다.
 tags: [git, version control, usage]
 share: true
 comments: true

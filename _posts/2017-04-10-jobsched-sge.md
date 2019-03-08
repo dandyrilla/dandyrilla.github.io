@@ -53,7 +53,7 @@ $ echo "sleep 10" | qsub
 볼까요?
 
 ```
-$ echo ""
+$ echo "" | qsub 
 ```
 
 
@@ -74,7 +74,7 @@ $ qconf -mq optiplex
 * 작업 스크립트: `/opt/gridengine/default/spool/qmaster/job_scripts`
 
 몇 개의 작업을 던지고 구조를 살펴보면, 다음과 같이 작업 번호가 생성되어 있는 것을 볼 수 있다. 작업에 부여된 번호가
-`827472`라면, `jobs/00/0082/7472`의 경로에 저장되어 있다.
+`827472` 라면, `jobs/00/0082/7472` 의 경로에 저장되어 있다.
 
 ```
 jobs
