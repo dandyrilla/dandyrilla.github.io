@@ -9,6 +9,11 @@ comments: true
 share: true
 ---
 
+> Note: 원격 인터프리터(SSH Interpreter) 기능은 PyCharm 의 여러 에디션 중 **Professional** edition 에만 지원되는
+기능입니다. 여러분이 사용하고 계신 PyCharm 에디션을 확인하시기 바랍니다. 본 포스트는 PyCharm 공식 문서의
+[Configure a remote interpreter using SSH](https://www.jetbrains.com/help/pycharm/configuring-remote-interpreters-via-ssh.html)
+를 바탕으로 쓰여졌습니다.
+
 ## 원격 인터프리터, 어떤 경우에 필요할까?
 
 연구실에서 연구 프로젝트를 진행할 때는 용량이 매우 큰 데이터(수 TB 이상)들을 다루는 일이 많고, 대규모 계산을 해야 하는
