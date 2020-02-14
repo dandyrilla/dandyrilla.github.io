@@ -13,7 +13,7 @@ share: true
 리눅스 서버의 모델명을 알아내는 방법은 `dmidecode` 명령어를 쓰면 된다. root 권한으로 실행시켜야 한다.
 
 ```
-[root@sirna1 project]# dmidecode --help
+[root@sirna1 ~]# dmidecode --help
 Usage: dmidecode [OPTIONS]
 Options are:
  -d, --dev-mem FILE     Read memory from device FILE (default: /dev/mem)
@@ -30,7 +30,7 @@ Options are:
 간단히 알아보려면 `-s` 옵션을 쓰거나 `grep`으로 필요한 부분을 받아오면 된다.
 
 ```
-[root@sirna1 project]# dmidecode -s system-product-name
+[root@sirna1 ~]# dmidecode -s system-product-name
 PowerEdge R210 II
 
 [root@sirna1 project]# dmidecode | grep "Product Name:"
@@ -44,7 +44,7 @@ PowerEdge R210 II
 마스터의 상태
 
 ```
-$ iostat
+[lab@sirna1 ~]$ iostat
 Linux 2.6.32-279.14.1.el6.x86_64 (sirna1.snu.ac.kr)  10/09/2017  _x86_64_  (4 CPU)
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -57,6 +57,7 @@ sda               1.80         8.89        30.06  155051140  524240872
 계산용 노드의 상태
 
 ```
+[lab@node01 ~]$ iostat
 Linux 2.6.32-279.14.1.el6.x86_64 (node01.local)  10/09/2017  _x86_64_  (4 CPU)
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -69,7 +70,7 @@ sda               0.14         1.05         2.55   18389786   44459328
 데이터 저장용 노드의 상태
 
 ```
-$ iostat
+[lab@mirna1 ~]$ iostat
 Linux 2.6.32-279.14.1.el6.x86_64 (mirna1.local)  10/09/2017  _x86_64_  (48 CPU)
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
@@ -85,7 +86,7 @@ sdd               2.57       254.35       323.18  3031974964  3852463963
 -x 옵션을 이용하면 더욱 자세한 정보를 보여줍니다.
 
 ```
-$ iostat -x
+[lab@mirna1 ~]$ iostat -x
 Linux 2.6.32-279.14.1.el6.x86_64 (mirna1.local)  10/09/2017  _x86_64_  (48 CPU)
 
 avg-cpu:  %user   %nice %system %iowait  %steal   %idle
