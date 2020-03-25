@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Apache HTTP 서버 설정하기"
+image: /images/2017-05-07/cover.svg
 description: "아파치 웹 서버 설정 방법을 알아봅니다."
 tags: [apache, http server, web server]
 comments: true
