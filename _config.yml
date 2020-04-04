@@ -1,29 +1,13 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
-
 # Basic
 name:               "dandyrilla"
 
 author:
   facebook:         dandyrilla
-  youtubeUser:      
-  youtubeChannel:   
-  twitter:          
   github:           dandyrilla
-  stackoverflow:    
-  quora:            
-  linkedin:         
-  pinterest:        
-  googlePlus:       
-  instagram:        
-  reddit:           
-  medium:           
-  tumblr:           
   email:            dandyrilla@naver.com
 
 copyright:
-  year:             2019
+  year:             2020
   name:             dandyrilla
 
 # Google-analytics
@@ -65,8 +49,6 @@ nav:
     url:            "/toolbox"
   - name:           "Github"
     url:            "https://github.com/dandyrilla"
-  - name:           "Links"
-    url:            "/links"
 
 # Sass
 sass:
