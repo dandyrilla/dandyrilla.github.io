@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "PyCharm 설정: 원격 인터프리터 사용하기"
+title: "PyCharm 에서 원격 인터프리터 사용하기"
+image: /images/2018-11-26/cover.svg
 description: >
   로컬 컴퓨터에 설치된 PyCharm 개발 환경에서 원격 서버에 설치된 파이썬을 인터프리터로 설정하여 사용하는 방법을
   알아봅니다. 더 나아가 로컬 컴퓨터와 원격 서버에 있는 파이썬 스크립트의 실시간 동기화 설정도 알아봅니다.
@@ -53,7 +54,7 @@ PyCharm 에서 원격 파이썬 인터프리터를 설정하기 위해 현재 �
 인터프리터를 PyCharm 에 추가하는 과정이 필요하다. 파이썬 원격 인터프린터 하나를 추가해 보자. 톱니바퀴 모양의 아이콘을
 눌러 'Add'를 클릭하면 인터프리터를 추가하는 대화상자로 넘어간다. 
 
-![Settings](/images/pycharm-remote-01.png "Settings"){: .center-image}
+![image](/images/2018-11-26/pycharm-remote-01.png "Settings"){: .center-image}
 
 ### Step 2. 원격 서버 정보 입력
 
@@ -62,14 +63,14 @@ SSH 접속을 통해 원격 인터프리터를 사용할 것이므로 'SSH Inter
 클릭한 뒤에 원격 서버의 호스트명(host)과 사용자명(username)을 적어주고 'Next'를 클릭하면 된다. 그러면 이제 PyCharm 은
 원격 서버에 접속을 시도해 볼 것이다.
 
-![Add Python Interpreter](/images/pycharm-remote-02.png "Add Python Interpreter"){: .center-image}
+![image](/images/2018-11-26/pycharm-remote-02.png "Add Python Interpreter"){: .center-image}
 
 ### Step 3. 비밀번호 입력
 
 원격 서버에 문제 없이 접속이 됐다면 아래와 같이 비밀번호를 입력하는 내용으로 바뀐다. 비밀번호를 입력한 후 'Next'를 눌러
 다음 단계로 진행한다.
 
-![Add Python Interpreter](/images/pycharm-remote-03.png "Add Python Interpreter"){: .center-image}
+![image](/images/2018-11-26/pycharm-remote-03.png "Add Python Interpreter"){: .center-image}
 
 ### Step 4. 파이썬 인터프리터 경로 지정 및 동기화 설정
 
@@ -84,7 +85,7 @@ SSH 접속을 통해 원격 인터프리터를 사용할 것이므로 'SSH Inter
 원하는 경로를 입력한 뒤 OK 버튼을 눌러 설정한다. 그리고 'Automatically upload project files to the server' 에 체크가
 되어있는지를 한번 더 확인한다.
 
-![Add Python Interpreter](/images/pycharm-remote-04.png "Add Python Interpreter"){: .center-image}
+![image](/images/2018-11-26/pycharm-remote-04.png "Add Python Interpreter"){: .center-image}
 
 ### Step 5. 설정 완료 및 확인
 
@@ -92,7 +93,7 @@ SSH 접속을 통해 원격 인터프리터를 사용할 것이므로 'SSH Inter
 부분이 'Remote Python 3.6.7 ...' 으로 바뀌어 있다. 그리고 아래 부분에 설치된 패키지 목록도 빼곡히 들어차 있는 것을
 확인할 수 있을 것이다.
 
-![Settings](/images/pycharm-remote-05.png "Settings"){: .center-image}
+![image](/images/2018-11-26/pycharm-remote-05.png "Settings"){: .center-image}
 
 
 ## 설정을 마치며
