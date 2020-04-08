@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "과학 저널들의 e-alerts 설정 방법"
+image: "/images/2019-01-16/cover.svg"
 description: "주기적으로 새로 나온 연구들의 목록을 이메일로 편하게 받아볼 수 있는 e-alerts 설정 방법을 알아봅니다."
 tags: [journal, e-alerts]
 share: true
