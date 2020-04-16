@@ -33,9 +33,8 @@ comments: true
 여러분이 하고자 하는 기능이 잘 담겨있다고 생각되시나요? 자, 그럼 설치를 한번 해 봅시다.
 이 패키지는 matplotlib 이라는 시각화 패키지 위에서 동작하므로 matplotlib 패키지가 먼저 설치되어 있어야 합니다.
 하지만 여러분이 패키지를 하나씩 직접 설치하는 경우가 아니라면 이러한 의존성들에 대해서는 패키지 설치 관리자들이 알아서
-설치를 해 줄 것이므로 크게 신경 쓸 필요가 없습니다. 파이썬을 사용하는 환경마다 설치 방법이 조금씩 다를 텐데요.
-간략히 easy_install 또는 conda 를 이용한 설치 방법을 소개해 보겠습니다.
-먼저 파이썬만을 단독으로 설치해서 사용하는 환경의 경우에는 easy_install 을 사용하여 아래와 같이 설치해주면 됩니다.
+설치를 해 줄 것이므로 크게 신경 쓸 필요가 없습니다. 파이썬을 사용하는 환경마다 설치 방법은 조금씩 다를 수 있습니다.
+먼저 파이썬을 단독으로 설치해서 사용하는 환경의 경우에는 easy_install 을 사용하여 아래와 같이 설치해주면 됩니다.
 
 ```
 easy_install matplotlib-venn
@@ -80,11 +79,6 @@ plt.show()
 ![image](/images/2020-04-15/example_venn2.png "Basic example, venn2"){: .center-image}
 
 
-[^1]: 기존에 매우 다양한 벤 다이어그램을 도구들이 존재했지만 제목이나 강조 표시 하나 손 쉽게 넣을 수 있는 도구는 잘 없는
-점에 착안하여 에스토니아 출신 연구자인 [Konstantin Tretyakov](http://kt.era.ee/)가 2012년에 만든 파이썬 패키지입니다.
-(참고: [Konstantin 의 블로그: Venn Diagrams in Python](http://fouryears.eu/2012/10/13/venn-diagrams-in-python/))
-
+[^1]: 기존에 매우 다양한 벤 다이어그램을 도구들이 존재했지만 제목이나 강조 표시 하나 손 쉽게 넣을 수 있는 도구는 잘 없는 점에 착안하여 에스토니아 출신 연구자인 [Konstantin Tretyakov](http://kt.era.ee/)가 2012년에 만든 파이썬 패키지입니다. (참고: [Konstantin 의 블로그: Venn Diagrams in Python](http://fouryears.eu/2012/10/13/venn-diagrams-in-python/))
 [^2]: 영어로는 이를 area-weighted 라고 표현합니다.
-
-[^3]: 반드시 꼭 `venn2(subsets=(1, 2, 3))` 처럼 keyword argument 로 넘겨줄 필요는 없습니다.
-간단히 `venn2((1, 2, 3))` 처럼 positional arguments 로 넘겨주어도 괜찮습니다.
+[^3]: 반드시 꼭 `venn2(subsets=(1, 2, 3))` 처럼 keyword argument 로 넘겨줄 필요는 없습니다. 간단히 `venn2((1, 2, 3))` 처럼 positional arguments 로 넘겨주어도 괜찮습니다.
