@@ -79,8 +79,7 @@ samtools view alignments.bam > alignments.sam
 작업 스크립트를 작성했으니, 작업을 제출해 보고, 제출한 작업을 확인하고,
 더 나아가 잘못 제출된 작업들이 있을 경우에 삭제하는 방법을 알아보겠습니다.
 
-
-#### 작업의 제출
+#### 2.1. 작업의 제출
 
 Slurm 에서의 작업 제출(job submission)은 `sbatch` 명령어를 통해 이루어집니다.
 `sbatch` 명령어의 첫 번째 인자에는 앞서 만든 작업 스크립트 파일을 넣어주면 됩니다.
@@ -94,8 +93,7 @@ Submitted batch job 1465
 작업이 문제 없이 제출이 되면 'Submitted batch job {JOBID}' 와 같은 메시지를 출력합니다.
 여기서 `JOBID` 는 제출된 작업에 부여된 식별 번호입니다. 이는 작업을 제출할 때마다 1씩 증가합니다.
 
-
-#### 제출된 작업의 확인
+#### 2.2. 제출된 작업의 확인
 
 제출한 작업들의 목록을 확인(job status)하려면 `squeue` 명령어를 이용합니다.
 
@@ -115,8 +113,7 @@ $ squeue
 * `ST` : 현재 작업의 상태 (R: running, PD: pending)
 * `NODELIST` : 현재 이 작업을 수행할 수 있도록 할당된 컴퓨터 노드들
 
-
-#### 제출된 작업의 삭제
+#### 2.3. 제출된 작업의 삭제
 
 현재 실행중인 작업을 중지시킬 필요가 있거나 작업을 잘못 제출하였을 때 작업을 삭제(job deletion)하려면
 `scancel` 라고 입력한 후 뒤에 취소할 작업 번호(JOBID)를 적어주면 됩니다.
@@ -128,12 +125,10 @@ $ scancel 1465
 일단 기본적으로 작업을 제출하고, 제출한 작업 목록들을 살펴보고, 원치 않는 작업들을 삭제하는 것을 알아보았습니다.
 다음으로는 제출된 작업들을 관리하는 방법을 알아보겠습니다.
 
-
-#### 작업들의 우선순위 조정
+#### 2.4. 작업들의 우선순위 조정
 
 어떤 특정 작업을 더 먼저 수행시키고자 할 때, 해당 작업의 우선순위를 상향 조정시키는 방법이다.
-보통 클러스터 관리자가 우선순위를 조정하는데요.
-아래는 작업 번호가 1465 인 작업의 우선순위를 높이는 방법을 보여주고 있습니다.
+보통 클러스터 관리자가 우선순위를 조정하는데요. 아래는 작업의 우선순위를 높이는 방법을 보여주고 있습니다.
 
 ```
 $ sudo scontrol update job=1465 nice=-100
@@ -145,11 +140,11 @@ nice 값을 조정하면 자동적으로 priority 값이 조정이 되어 작업
 우선순위를 낮추는 건 모든 일반 사용자도 가능합니다.
 
 
-### 4. 환경 설정
+### 3. 환경 설정
 
 Slurm 환경 설정에 대한 방법들을 알아봅니다.
 
-#### 파티션 목록 확인
+#### 3.1. 파티션 목록 확인
 
 다른 작업 클러스터에 있는 큐(queue) 라는 개념이 slurm 에서는 파티션(partition) 입니다.
 Slurm 에 존재하는 파티션의 목록들은 `sinfo` 명령으로 알 수 있습니다.
@@ -160,7 +155,7 @@ PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
 normal*      up 2-00:00:00      3   idle node[1-3]
 ```
 
-#### 파티션 생성
+#### 3.2. 파티션 생성
 
 작업 파티션을 생성하기 위해서는 `scontrol create` 명령어를 이용합니다.
 관리자 권한이 필요합니다. 다음은 `optiplex` 라는 이름의 파티션을 생성하는 예제입니다.
@@ -178,7 +173,7 @@ normal*      up 2-00:00:00      3   idle node[1-3]
 optiplex     up   infinite      0    n/a
 ```
 
-#### 파티션 세부 정보 확인
+#### 3.3. 파티션 세부 정보 확인
 
 파티션을 생성하면 기본적으로 여러 속성들이 설정되는데, 기본적으로 설정되는 값들은 아래와 같습니다.
 `scontrol show partition {partition_name}` 명령을 이용하여 해당 파티션에 설정된 속성들을 확인할 수 있습니다.
@@ -239,7 +234,7 @@ PartitionName=optiplex
    DefMemPerNode=UNLIMITED MaxMemPerNode=UNLIMITED
 ```
 
-#### 파티션 삭제
+#### 3.4. 파티션 삭제
 
 생성했던 파티션을 다시 지우고 싶을 때는 다음과 같이 하면 된다.
 
@@ -247,7 +242,7 @@ PartitionName=optiplex
 $ sudo scontrol delete PartitionName=optiplex
 ```
 
-#### 잠들어 있는 노드 깨우기
+#### 3.5. 잠들어 있는 노드 깨우기
 
 오랜 기간 사용하지 않으면 계산 노드들의 상태가 down 으로 잠들어 있는 경우가 종종 있다.
 이는 `scontrol update` 명령으로 가능하며 다시 활성화 시킬 노드들을 정해주고, 업데이트 할 상태를 적어주면 된다.
@@ -265,8 +260,7 @@ PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
 optiplex*    up 1-00:00:00     51   idle n[1-51]
 ```
 
-
-### 각종 확인 명령어
+#### 3.6. 기타 명령어
 
 설치여부 및 버전 확인 (위: 마스터 노드, 아래: 계산 노드)
 
@@ -295,7 +289,7 @@ rna2a          1    debug2 down
 rna2b          1    debug3 down
 ```
 
-### 관련 경로
+#### 3.7. 관련 경로
 
 `/etc/slurm/slurm.conf`: slurm 의 환경 설정 파일
 
@@ -314,7 +308,7 @@ SlurmdLogFile=/var/log/slurmd.log
 `/var/spool/slurm`: 현재 돌고 있는 작업들의 스크립트가 저장되는 곳
 
 
-### 자주 접하는 에러들
+### 4. 자주 접하는 문제 및 해결방법
 
 #### slurm_update error: Invalid user id
 
@@ -335,7 +329,6 @@ slurm_update error: Invalid user id
 ```
 $ sudo scontrol create PartitionName=optiplex
 ```
-
 
 #### You are not running a supported accounting_storage plugin
 
@@ -367,7 +360,6 @@ $ sudo scontrol update NodeName=n3 State=down Reason="Power supply failing"
 현재 노드에 남아 실행중인 작업들을 바로 종료시키느냐의 여부가 차이가 있다.
 down 의 경우에는 곧바로 작업들을 종료시키는 반면,
 drain 의 경우에는 현재 실행중인 작업들은 끝날 때까지 실행시키고 새로운 작업이 들어오지 않게 한다.
-
 
 #### sbatch: error: invalid partition specified:
 
@@ -436,7 +428,6 @@ Submitted batch job 14148
 sbatch: error: Slurm temporarily unable to accept job, sleeping and retrying
 ```
 
-
 #### scancel: error: Kill job error on job id 14262_43: Socket timed out on send/recv operation
 
 작업을 취소하려 하는 경우에 발생하는 에러
@@ -447,7 +438,6 @@ $ scancel -u sonic
 scancel: _add_delay: adding delay in RPC send of 1000000 usec
 scancel: error: Kill job error on job id 14262_43: Socket timed out on send/recv operation
 ```
-
 
 #### slurm_load_node: Socket timed out on send/recv operation
 
