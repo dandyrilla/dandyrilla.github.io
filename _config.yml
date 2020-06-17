@@ -75,6 +75,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-admin
+  - jekyll-toc
   - jekyll-sitemap
 
 exclude:            [vendor]
