@@ -21,7 +21,7 @@ disqus:
 # URL
 url:                "https://dandyrilla.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
-baseurl:            # the subpath of your site, e.g. /blog
+baseurl:            "/" # the subpath of your site, e.g. /blog
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -70,7 +70,7 @@ defaults:
     values:
       layout:       "post"
 
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
