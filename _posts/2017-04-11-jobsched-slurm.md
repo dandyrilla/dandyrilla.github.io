@@ -113,6 +113,28 @@ $ squeue
 * `ST` : 현재 작업의 상태 (R: running, PD: pending)
 * `NODELIST` : 현재 이 작업을 수행할 수 있도록 할당된 컴퓨터 노드들
 
+한편, 제출된 작업의 이름을 확인할 수 있는 필드인 `NAME` 은 그 길이가 짧아 이름을 확인하기에는 어려움이 많은데요.
+이 부분을 해결할 수 있도록 squeue 명령어에 formatting 옵션을 주어 출력할 수 있습니다. 아래의 formatting 옵션 중 `%.50j`
+부분이 작업의 이름을 나타내는 필드의 가로 길이를 결정해 주는 부분입니다.
+
+```
+squeue --format="%.10i %.9P %.50j %.8u %.8T %.10M %.9l %.6D %R" | sort -n -k1,1
+```
+
+저는 이러한 스크립트를 `qsum` (queue summary) 라는 이름의 스크립트로 저장해 놓고 자주 사용합니다.
+
+```
+(sjpy3) [sonic@rna1 ~]$ qsum
+  JOBID  PARTITION                           NAME     USER    STATE       TIME TIME_LIMI     NODES NODELIST(REASON)
+5499940     debug1   Sukjun.prep_reads.TR0078_001    sonic  RUNNING   15:55:56 365-00:00:00      1 n18
+5499941     debug1   Sukjun.prep_reads.TR0078_002    sonic  RUNNING   15:55:56 365-00:00:00      1 n19
+5499942     debug1   Sukjun.prep_reads.TR0078_003    sonic  RUNNING   15:55:56 365-00:00:00      1 n20
+5499943     debug1   Sukjun.prep_reads.TR0078_004    sonic  RUNNING   15:55:56 365-00:00:00      1 n10
+5499944     debug1   Sukjun.prep_reads.TR0078_005    sonic  RUNNING   15:55:56 365-00:00:00      1 n11
+...
+```
+
+
 #### 2.3. 제출된 작업의 삭제
 
 현재 실행중인 작업을 중지시킬 필요가 있거나 작업을 잘못 제출하였을 때 작업을 삭제(job deletion)하려면
@@ -341,7 +363,7 @@ Only 'accounting_storage/slurmdbd' and 'accounting_storage/mysql' are supported.
 
 #### You must specify a reason when DOWNING or DRAINING a node. Request denied.
 
-몇 개의 노드에 문제가 생겨 상태를 변경하여 작업 실행이 일어나지 않도록 할 때가 있다.
+몇 개의 노드에 문제가 생겨 상태를 변경하여 작업 실행이 일어나지 않도록 해야 할 때가 있다.
 그런데, down 또는 drain 으로 상태 변경 시 이유를 적시하지 않으면 에러가 발생한다.
 
 ```
@@ -446,4 +468,11 @@ scancel: error: Kill job error on job id 14262_43: Socket timed out on send/recv
 ```
 $ sinfo
 slurm_load_node: Socket timed out on send/recv operation
+```
+
+#### scontrol: error: Update of this parameter is not supported: MaxJobs=10 
+
+```
+[root@rna1 ~]# scontrol update PartitionName=debug1 MaxJobs=10
+scontrol: error: Update of this parameter is not supported: MaxJobs=10
 ```
