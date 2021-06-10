@@ -46,10 +46,10 @@ level에서의 transcriptome을 보기에는 한계가 있었음을 보여준다
 그 사실을 알아내기 위해 꼭 그 방법만 써야 하는지를 곰곰이 생각해 보아라: yeast에서 Invertase의 sorting mutant는 sucrose
 에서만...
 
-(예) TAIL-seq, 임재철, 장혜식: 일루미나 장비에서 얻을 수 있는 raw 데이터 시그널을 이용하여 poly(A) 의 길이를 정확히
-측정하는 기술을 개발하여 더욱 정확한 측정이 가능케 하였다.
-(예) General rules for miRNA targetins: 우리 연구실에서 낸 Nature Genetics 논문. 더욱 체계적인 새로운 방법을
-고안해냄으로써 기존에 찾지 못했던 miRNA 의 site type 들을 더 찾아내었다.
+* TAIL-seq: 일루미나 장비에서 얻을 수 있는 raw 데이터 시그널을 이용하여 poly(A) 의 길이를 정확히 측정하는 기술을
+  개발하여 더욱 정확한 측정이 가능케 하였다.
+* General rules for miRNA targeting: 우리 연구실에서 낸 Nature Genetics 논문. 더욱 체계적인 새로운 방법을 고안해냄으로써
+  기존에 찾지 못했던 miRNA 의 site type 들을 더 찾아내었다.
 
 ### 같은 연구 내용을 model organism 만 바꾸어서 적용해 보기
 
