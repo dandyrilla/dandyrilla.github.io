@@ -11,7 +11,10 @@ Name
 E-mail
 : juniya23@snu.ac.kr, dandyrilla@gmail.com
 
-Github
+LinkedIn
+: [sukjun-kim-dandyrilla](https://www.linkedin.com/in/sukjun-kim-dandyrilla/)
+
+GitHub
 : [github.com/dandyrilla](https://github.com/dandyrilla)
 
 
@@ -26,6 +29,18 @@ Github
 
 ### Publications
 
+* Doyeon Kim, **Sukjun Kim**, Joori Park, Hee Ryung Chang, Jeeyoon Chang, Junhak Ahn, Heedo Park, Junehee Park,
+  Narae Son, Gihyeon Kang, Jeonghun Kim, Kisoon Kim, Man-Seong Park, Yoon Ki Kim, Daehyun Baek (2021).
+  [A high-resolution temporal atlas of the SARS-CoV-2 translatome and transcriptome.](https://www.nature.com/articles/s41467-021-25361-5)
+  ***Nature Communications***
+
+* **Sukjun Kim**, Soyoung Kim, Hee Ryung Chang, Doyeon Kim, Junehee Park, Narae Son, Joori Park, Minhyuk Yoon,
+  Gwangung Chae, Young-Kook Kim, V. Narry Kim, Yoon Ki Kim, Jin-Wu Nam, Chanseok Shin, Daehyun Baek (2021).
+  [The regulatory impact of RNA-binding proteins on microRNA targeting.](https://www.nature.com/articles/s41467-021-25078-5)
+  ***Nature Communications***
+  
+  * [마이크로RNA 타겟팅에 지대한 영향을 주는 RNA-결합 단백질들의 새로운 기능 발견](https://www.snu.ac.kr/research/highlights?md=v&bbsidx=132985), 2021-08-20, 서울대학교 연구성과
+  
 * Doyeon Kim, You Me Sung, Jinman Park, **Sukjun Kim**, Jongkyu Kim, Junhee Park, Haeok Ha, Jung Yoon Bae, SoHui Kim
   and Daehyun Baek (2016). [General rules for functional microRNA targeting.](https://www.ncbi.nlm.nih.gov/pubmed/27776116)
   ***Nature Genetics***
