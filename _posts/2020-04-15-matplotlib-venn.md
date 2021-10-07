@@ -1,34 +1,39 @@
 ---
 layout: post
-title: "파이썬에서 벤 다이어그램 그리기"
+title: "Creating Venn diagram using matplotlib-venn package"
 image: /images/2020-04-15/cover.svg
 description: >
-  파이썬(python)에서 matplotlib-venn 패키지를 활용하여 벤 다이어그램을 그려보고
-  사용하려는 목적에 맞게 다양하게 커스터마이징 하는 방법을 알아봅니다.
+  This post covers the basics of how to create Venn diagram using Python package called 'matplotlib-venn'.
+  It also provides example code snippets of diagrams fit for purpose.
 tags: [python, venndiagram, matplotlib_venn]
 share: true
 comments: true
 ---
 
-### matplotlib-venn 패키지 소개 및 설치
+### What is matplotlib-venn package?
 
-벤 다이어그램을 그려주는 파이썬 패키지인 'matplotlib-venn'[^1] 를 소개하려고 합니다.
-연구를 하다 보면 집합들간의 관계를 표시해주는 벤 다이어그램을 그려야 하는 경우가 종종 생깁니다.
-그럴 때마다 웹에서 손쉽게 사용할 수 있는 툴들을 사용하곤 했었는데,
-몇 가지 아쉬운 점들이 있어서 필요한 경우에는 직접 그려야 했던 적도 있었습니다.
-하지만 이 패키지는 다른 패키지들과는 다르게 사용하기 쉽고,
-유연한 커스터마이징이 가능하도록 만들어져서 앞으로 많은 부분에 적용하여 사용하게 될 것 같습니다.
-특히 기존의 도구들이나 패키지들은 벤 다이어그램을 그릴 때 집합들의 크기(집합을 구성하는 원소들의 갯수)를 면적으로
-반영하여 그려주는 기능[^2]이 없는 경우가 많은데, 이 패키지는 그것을 가능하게 해 주는 점이 큰 특징입니다.
+Let me introduce a python package, 'matplotlib-venn'[^1] which can create Venn diagram.
+We sometimes have situations that we need to depict the relationship between multiple sets.
+Whenever that happens, I used to use web-based tools I can use easily on my web browser.
+However, the tools have some limitations of customizing so that I had to draw it manually using graphics software like Illustrator.
 
-이 패키지는 2개 또는 3개의 집합들에 대해 벤 다이어그램을 그리는 것이 가능합니다.
-그리고자 하는 집합의 수에 따라 사용해야 하는 함수의 이름이 다릅니다.
-집합이 2개인 경우에는 `venn2` 함수를, 3개인 경우에는 `venn3` 함수를 사용하면 됩니다.
-이 기본 함수 외에도 각 집합을 윤곽선만 있는 원으로 표시하는 함수인 `venn2_circles` 및 `venn3_circles` 와
-집합의 크기를 원의 크기에 반영하지 않는 함수인 `venn2_unweighted` 및 `venn3_unweighted` 가 있습니다.
-이렇게 말씀드린 6개의 함수가 이 패키지에서 제공하는 전부입니다.
+Unlike the tools I mentioned earlier, 'matplotlib-venn' is easy-to-use and offers flexibility to customize all features.
+In particular, while there has been a small number of packages which can produce area-weighted[^2] diagram,
+one of remarkable features in the package is that it can do this.
+
+The package is applicable to use when you have two or three sets.
+(If you have more than three sets, I suggest you use more efficient way of plotting venn diagram like '[upset](https://doi.org/10.1109/TVCG.2014.2346248)')
+A function you have to use is dependent on the number of sets to compare.
+Use the function `venn2` for two sets and the function `venn3` for three sets.
+Beyond these basic functions, it also provides another functions called `venn2_circles` and `venn3_circles`, which add only outline of the diagram.
+If you don't mind the size of area, you can use `venn2_unweighted` and `venn3_unweighted`, which are not area-weighted functions.
+These six are all functions the package provides.
+
 
 ![image](/images/2020-04-15/funcs.png "Functions in matplotlib-venn package"){: .center-image}
+
+
+### Install the package
 
 여러분이 하고자 하는 기능이 잘 담겨있다고 생각되시나요? 자, 그럼 설치를 한번 해 봅시다.
 이 패키지는 matplotlib 이라는 시각화 패키지 위에서 동작하므로 matplotlib 패키지가 먼저 설치되어 있어야 합니다.
