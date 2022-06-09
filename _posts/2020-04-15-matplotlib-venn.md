@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating Venn diagram using matplotlib-venn package"
+title: "How to create Venn diagrams in python?"
 image: /images/2020-04-15/cover.svg
 description: >
   This post covers the basics of how to create Venn diagram using Python package called 'matplotlib-venn'.
