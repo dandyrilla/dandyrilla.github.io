@@ -46,32 +46,30 @@ YouTube
 
 * **Sukjun Kim**, Seulki Kim, Yoojoo Lim, Gahee Park, Sanghoon Song, Heon Song, Seonwook Park, Jeongun Ryu,
   Sergio Pereira, Donggeun Yoo, Kyunghyun Paeng, Chan-Young Ock.
-  [Spatial analysis of tumor-infiltrating lymphocytes (TILs) based on HER2 expression across multiple cancer types.](#)
+  [Spatial analysis of tumor-infiltrating lymphocytes (TILs) based on HER2 expression across multiple cancer types.](https://jitc.bmj.com/content/10/Suppl_2/A1333)
   *Society for Immunotherapy of Cancer* (2022).
 
-* Jimin Moon, Hyung-Gyo Cho, Seokhwi Kim, **Sukjun Kim**, Gahee Park, Sanghoon Song, Wonkyung Jung, Chan-Young Ock.
-  [Multimodal approach to discover novel targets for antibody-drug conjugates by analyzing distinct expression patterns of frequent copy number aberration.](#)
-  *European Society for Medical Oncology* (2022).
+  * [루닛, 면역항암악회(SITC2022)서 AI 바이오마커 연구초록 3편 발표](https://www.biotimes.co.kr/news/articleView.html?idxno=9052), 2022-11-08, 바이오타임즈
+  * [루닛, SITC서 HER2 발현 암종 TIL 분석 결과발표](http://www.biospectator.com/view/news_view.php?varAtcId=17604), 2022-11-09, 바이오스펙테이터
 
-* Hyung-Gyo Cho, Seokhwi Kim, Sangjoon Choi, Soo Ick Cho, Wonkyung Jung, **Sukjun Kim**, Gahee Park, Sanghoon Song,
-  Sergio Pereira, Heon Song, Seonwook Park, Mohammad Mostafavi, Kyunghyun Paeng, Chan-Young Ock.
-  [AI-powered analyzer reveals enrichment of intratumoral tumor-infiltrating lymphocytes in high-grade neuroendocrine neoplasms.](#)
+* Jimin Moon, Hyung-Gyo Cho, Seokhwi Kim, **Sukjun Kim**, Gahee Park, Sanghoon Song, Wonkyung Jung, Chan-Young Ock.
+  [Multimodal approach to discover novel targets for antibody-drug conjugates by analyzing distinct expression patterns of frequent copy number aberration.](https://doi.org/10.1016/j.annonc.2022.07.1782)
   *European Society for Medical Oncology* (2022).
 
 * Jeong Hwan Park, Soo Ick Cho, Kyu Sang Lee, Euno Choi, Wonkyung Jung, **Sukjun Kim**, Gahee Park, Sanghoon Song,
   Cholmin Kang, Minuk Ma, Donggeun Yoo, Kyunghyun Paeng, Chan-Young Ock.
-  [Performance validation of an artificial intelligence-powered Programmed death-ligand 1 (PD-L1) combined positive score analyzer in urothelial cancer.](#)
+  [Performance validation of an artificial intelligence-powered Programmed death-ligand 1 (PD-L1) combined positive score analyzer in urothelial cancer.](https://doi.org/10.1016/j.annonc.2022.07.126)
   *European Society for Medical Oncology* (2022).
 
-* Gahee Park, **Sukjun Kim**, Sanghoon Song, Heon Song, Jeongun Ryu, Seonwook Park, Sergio Pereira, Kyunghyun Paeng,
-  Chan-Young Ock.
-  [Artificial intelligence-powered tumor purity assessment from H&E whole slide images associates with variant allele frequency of somatic mutations across 23 cancer types in TCGA cohorts.](#)
+* Seokhwi Kim, Gahee Park, **Sukjun Kim**, Sanghoon Song, Heon Song, Jeongun Ryu, Seonwook Park, Sergio Pereira,
+  Kyunghyun Paeng, Chan-Young Ock.
+  [Artificial intelligence-powered tumor purity assessment from H&E whole slide images associates with variant allele frequency of somatic mutations across 23 cancer types in TCGA cohorts.](https://doi.org/10.1016/j.annonc.2022.07.1784)
   *European Society for Medical Oncology* (2022).
 
 * Gahee Park, Sanghoon Song, **Sukjun Kim**, Sangheon Ahn, Hyunjoo Kim, Jaegeun Lee, Juneyoung Ro, Woomin Park,
   Taiwon Chung, Cholmin Kang, Chunggi Lee, Huijeong Kim, Jisoo Shin, Seungje Lee, Eunji Baek, Sumin Lee, Melody SeungHui Seo,
   Hyojung Choi, Donggeun Yoo, Chan-Young Ock.
-  [Artificial intelligence-powered pathology image analysis merged with spatial transcriptomics reveals distinct TIGIT expression in the immune-excluded tumor-infiltrating lymphocytes.](#)
+  [Artificial intelligence-powered pathology image analysis merged with spatial transcriptomics reveals distinct TIGIT expression in the immune-excluded tumor-infiltrating lymphocytes.](https://ascopubs.org/doi/abs/10.1200/JCO.2022.40.16_suppl.2570)
   *American Society of Clinical Oncology* (2022).
 
 * Doyeon Kim, **Sukjun Kim**, Joori Park, Hee Ryung Chang, Jeeyoon Chang, Junhak Ahn, Heedo Park, Junehee Park,
