@@ -21,7 +21,7 @@ YouTube
 : [Sukjun Kim](https://www.youtube.com/channel/UCajurZiO-sgtAuEWvYPPvJg)
 
 
-### Research Experiences
+### Research experiences
 
 2022-01 - Present
 : Biomedical Data Scientist, Oncology Group, Lunit Inc.
@@ -33,7 +33,7 @@ YouTube
 : Graduate Student, Seoul National University
 
 
-### Education and Training
+### Education and training
 
 2013-03 - 2021-02
 : Ph.D. in Computational Biology (Bioinformatics), School of Biological Sciences, College of Natural Sciences, Seoul National University
