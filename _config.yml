@@ -11,8 +11,8 @@ copyright:
   name:             dandyrilla
 
 # Google-analytics
-google-analytics:
-  id:               "UA-126097508-1"
+google_analytics:
+  id:               "G-5Y5TE2CC1J"
 
 # Disqus
 disqus:
