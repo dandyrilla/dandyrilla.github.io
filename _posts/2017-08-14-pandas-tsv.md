@@ -14,7 +14,7 @@ import pandas as pd
 
 
 def read_tsv(filename, **kw):
-    _kw = dict(sep='\t', header=0)
+    _kw = dict(sep='\t')
     _kw.update(kw)
     df = pd.read_csv(filename, **_kw)
     return df
