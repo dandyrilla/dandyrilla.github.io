@@ -9,6 +9,8 @@ share: true
 comments: true
 ---
 
+다음과 같이 `read_tsv()` 또는 `to_tsv()` 함수를 따로 정의해 두고 사용할 수 있습니다. 이를 하나의 사용자 정의 모듈로 만들면 편하게 꺼내쓸 수 있습니다.
+
 ```python
 import pandas as pd
 
@@ -25,6 +27,10 @@ def to_tsv(df, filename, **kw):
     _kw.update(kw)
     df.to_csv(filename, **_kw)
 ```
+
+또는 functools 모듈을 이용하면 다음과 같이 단 2줄로 해결할 수도 있습니다. 그리고 해당 함수를 정의하는 위치를 pandas 라이브러리 내부에 둠으로써 기존에
+CSV 파일을 읽을 때 `pd.read_csv()` 형태로 사용했듯이 TSV 파일을 읽을 때 `pd.read_tsv()` 형태로 사용할 수 있습니다. 마찬가지로 데이터프레임을
+TSV 파일로 저장할 때에는 `df.to_tsv()` 형태로 사용할 수 있습니다.
 
 
 ```python
