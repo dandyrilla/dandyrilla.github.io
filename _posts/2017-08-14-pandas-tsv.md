@@ -33,6 +33,6 @@ from functools import partial, partialmethod
 import pandas as pd
 
 
-pd.read_tsv = partial(pd.read_csv, sep='\t', header=0)
+pd.read_tsv = partial(pd.read_csv, sep='\t')
 pd.DataFrame.to_tsv = partialmethod(pd.DataFrame.to_csv, sep='\t', index=False)
 ```
