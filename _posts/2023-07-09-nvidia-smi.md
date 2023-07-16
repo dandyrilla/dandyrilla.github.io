@@ -11,6 +11,8 @@ share: true
 
 ## Section 1: 날짜 및 드라이버 버전
 
+![image](/images/2023-07-09/nvidia-smi-sec1.png "Section 1, Date and driver version")
+
 * **1A**: nvidia-smi 명령이 수행된 시각입니다. 요일, 월, 일, 시:분:초, 년도의 형식으로
   출력됩니다.
 * **1B**: nvidia-smi 명령의 버전과 현재 시스템에 설치된 NVIDIA GPU 드라이버의 버전입니다.
@@ -20,6 +22,8 @@ share: true
   CUDA 버전을 확인하려면 `nvcc --version` 명령을 이용합니다.
 
 ## Section 2: GPU 정보 및 물리적인 상태
+
+![image](/images/2023-07-09/nvidia-smi-sec2.png "Section 2, GPU info and physical status")
 
 * **2A**: GPU 에 매겨지는 번호입니다. 여기에서는 총 8개의 GPU 가 보이며, 0 부터 7 까지의 번호가 
   매겨져 있습니다.
@@ -42,6 +46,8 @@ share: true
 
 ## Section 3: GPU 장착 위치 및 메모리 사용량
 
+![image](/images/2023-07-09/nvidia-smi-sec3.png "Section 3, GPU's PCIe bus address and memory usage")
+
 * **3A**: GPU 가 장착된 PCIe 버스의 주소입니다. 이는 유지보수 시 GPU 의 위치를 알아내는 데 매우
   중요한 정보로 사용됩니다.
 * **3B**: 해당 GPU 가 모니터 화면 출력에 사용되고 있는지의 여부입니다. On 또는 Off 로 표시됩니다.
@@ -50,6 +56,8 @@ share: true
 
 ## Section 4: GPU 사용량 및 멀티 인스턴스 정보
 
+![image](/images/2023-07-09/nvidia-smi-sec4.png "Section 4, GPU usage and multi instance info")
+
 * **4A**: 연산하는 과정에서 GPU 에서 발생된 에러 정도를 나타낸 수치입니다. 0 부터 시작하여 에러가
   발생할 수록 점점 증가하게 됩니다. 지원하지 않는 경우에는 N/A 로 표시됩니다.
 * **4B**: GPU 사용량입니다. 0 ~ 100% 범위로 표시됩니다.
@@ -57,6 +65,8 @@ share: true
   로 표시되며, 이는 여러 스레드가 해당 GPU 를 동시에 공유하면서 사용할 수 있다는 의미입니다.
 
 ## Section 5: GPU 를 사용 중인 프로세스들
+
+![image](/images/2023-07-09/nvidia-smi-sec5.png "Section 5, List of processes using GPU")
 
 * **5A**: 특정 프로세스가 사용하고 있는 GPU 번호입니다.
 * **5B**: GPU Instance ID 를 의미하며, MIG 모드가 활성화 되어있을 때 표시됩니다.
