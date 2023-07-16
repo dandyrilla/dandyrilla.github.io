@@ -12,7 +12,7 @@ share: true
 GPU 사용량은 아래 그림에서 **4B** 항목을 보시면 되고, GPU 메모리 사용량은 **3C** 항목을 확인하시면
 됩니다. 더욱 자세한 내용들은 5개의 섹션별로 나누어 아래에 설명해 두었으니 참고 부탁드립니다.
 
-![image](/images/2023-07-09/nvidia-smi-desc-kr.png "Description of nvidia-smi output")
+[![image](/images/2023-07-09/nvidia-smi-desc-kr.png "Description of nvidia-smi output")](/images/2023-07-09/nvidia-smi-desc-kr.png)
 
 ### Section 1: 날짜 및 드라이버 버전
 
