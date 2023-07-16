@@ -7,9 +7,14 @@ comments: true
 share: true
 ---
 
+## nvidia-smi 명령어가 알려주는 정보들
+
+GPU 사용량은 아래 그림에서 **4B** 항목을 보시면 되고, GPU 메모리 사용량은 **3C** 항목을 확인하시면
+됩니다. 더욱 자세한 내용들은 5개의 섹션별로 나누어 아래에 설명해 두었으니 참고 부탁드립니다.
+
 ![image](/images/2023-07-09/nvidia-smi-desc-kr.png "Description of nvidia-smi output")
 
-## Section 1: 날짜 및 드라이버 버전
+### Section 1: 날짜 및 드라이버 버전
 
 ![image](/images/2023-07-09/nvidia-smi-sec1.png "Section 1, Date and driver version")
 
@@ -21,7 +26,7 @@ share: true
   설치된 GPU 드라이버 버전과 호환성 측면에서 권장되는 버전이 표시되는 것입니다. 현재 시스템에 설치된
   CUDA 버전을 확인하려면 `nvcc --version` 명령을 이용합니다.
 
-## Section 2: GPU 정보 및 물리적인 상태
+### Section 2: GPU 정보 및 물리적인 상태
 
 ![image](/images/2023-07-09/nvidia-smi-sec2.png "Section 2, GPU info and physical status")
 
@@ -44,7 +49,7 @@ share: true
   * P12 - 최소 유휴상태 전원소비
 * **2G**: GPU 가 최대 사용할 수 있는 전력 대비 현재 사용중인 전력이 표시되고 있습니다.
 
-## Section 3: GPU 장착 위치 및 메모리 사용량
+### Section 3: GPU 장착 위치 및 메모리 사용량
 
 ![image](/images/2023-07-09/nvidia-smi-sec3.png "Section 3, GPU's PCIe bus address and memory usage")
 
@@ -54,7 +59,7 @@ share: true
 * **3C**: 사용 가능한 GPU 메모리의 총 용량 대비 현재 사용량이 표시되고 있습니다. CPU 메모리와
   마찬가지로 GPU 사용 시에도 GPU 메모리가 초과되지 않도록 신경써야 합니다.
 
-## Section 4: GPU 사용량 및 멀티 인스턴스 정보
+### Section 4: GPU 사용량 및 멀티 인스턴스 정보
 
 ![image](/images/2023-07-09/nvidia-smi-sec4.png "Section 4, GPU usage and multi instance info")
 
@@ -64,7 +69,7 @@ share: true
 * **4C**: Compute Mode 라는 뜻으로, GPU 의 공유 접근 방법을 표시합니다. 기본값은 Default (0)
   로 표시되며, 이는 여러 스레드가 해당 GPU 를 동시에 공유하면서 사용할 수 있다는 의미입니다.
 
-## Section 5: GPU 를 사용 중인 프로세스들
+### Section 5: GPU 를 사용 중인 프로세스들
 
 ![image](/images/2023-07-09/nvidia-smi-sec5.png "Section 5, List of processes using GPU")
 
@@ -78,5 +83,6 @@ share: true
     표시됩니다.
   * C: 계산(Compute) 모드로, Tensorflow 나 Pytorch 등을 사용하는 딥러닝 모델의 학습 또는
     인퍼런스 시에 주로 표시됩니다.
+  * G+C: 위의 두 모드가 동시에 사용될 때 표시됩니다.
 * **5F**: 프로세스 이름입니다. 실행한 명령어가 표시됩니다.
 * **5G**: 해당 프로세스의 GPU 메모리 사용량입니다.
