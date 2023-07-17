@@ -3,7 +3,7 @@ layout: post
 title: PyCharm 에서 원격 저장소를 로컬 컴퓨터로 복제하기 
 description: >
   원격 저장소의 파일들을 로컬 컴퓨터로 복제하여 PyCharm 에서 작업하는 방법을 알아봅니다.
-tags: [pycharm, settings]
+tags: [pycharm]
 share: true
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "파이썬3 에서 C 모듈 만들고 사용하기"
 description: "C 언어로 작성한 모듈을 파이썬에서 사용할 수 있게 모듈화 시키고 이를 이용하는 예제를 살펴보겠습니다."
-tags: [Python, C extension, shared library]
+tags: [python, C extension, shared library]
 share: true
 comments: true
 ---
