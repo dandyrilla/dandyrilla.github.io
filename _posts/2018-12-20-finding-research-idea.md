@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "연구에 대한 아이디어를 얻는 방법들"
+image: /images/2018-12-20/cover.svg
 description: >
   다음 연구 프로젝트는 어떤 걸로 할까? 창의적인 연구 주제를 잡을 때 도움되는 몇 가지 방법을 소개합니다.
 share: true
