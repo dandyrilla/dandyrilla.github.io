@@ -3,6 +3,14 @@ title: About
 permalink: /about/
 ---
 
+Hi, my name is Sukjun Kim. I am a computational biologist and a biomedical data
+scientist with a keen interest in developing biomarkers to predict cancer
+patients' treatment outcomes. My passion lies in tackling challenges within
+cancer genomics, RNA biology, and digital pathology using the power of
+artificial intelligence. Welcome to my personal blog, where I share my
+experiences and thoughts. Thank you for visiting, and I hope you find the
+content insightful and engaging.
+
 ### Personal information
 
 Name
