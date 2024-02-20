@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "apt-get update 시 nvidia 의 GPG error 해결 방법"
-description: >
-  
 tags: [ubuntu, apt-get, gpg, error]
 comments: true
 share: true
