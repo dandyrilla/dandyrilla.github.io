@@ -223,7 +223,6 @@ rm -rf .pyenv
 
 pyenv 를 설치하면서 추가한 `.bashprofile` 혹은 `.bashrc` 파일 내 라인들을 제거한다.
 
-
 ### Step 3. (선택 사항) 각 프로젝트 폴더 내 `.python-version` 파일 삭제하기
 
 각 프로젝트 폴더 내 `.python-version` 파일들을 삭제한다.
