@@ -227,3 +227,37 @@ pyenv 를 설치하면서 추가한 `.bashprofile` 혹은 `.bashrc` 파일 내 �
 
 각 프로젝트 폴더 내 `.python-version` 파일들을 삭제한다.
 나중에 pyenv 를 다시 설치하면서 동일한 가상환경 이름을 사용한다면 굳이 삭제하지 않아도 되겠지만 깔끔하게 하기 위해 삭제할 것을 권장한다.
+
+## Errors
+
+### ModuleNotFoundError: No module named ...
+
+파이썬 설치 시 시스템 내 특정 라이브러리를 찾지 못하는 경우에 에러가 발생할 수 있다.
+
+```
+sukjun@207f9fbfcb7b:~$ pyenv install 3.8
+Downloading Python-3.8.19.tar.xz...
+-> https://www.python.org/ftp/python/3.8.19/Python-3.8.19.tar.xz
+Installing Python-3.8.19...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/sukjun/.pyenv/versions/3.8.19/lib/python3.8/ctypes/__init__.py", line 7, in <module>
+    from _ctypes import Union, Structure, Array
+ModuleNotFoundError: No module named '_ctypes'
+WARNING: The Python ctypes extension was not compiled. Missing the libffi lib?
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/sukjun/.pyenv/versions/3.8.19/lib/python3.8/sqlite3/__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "/home/sukjun/.pyenv/versions/3.8.19/lib/python3.8/sqlite3/dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ModuleNotFoundError: No module named '_sqlite3'
+WARNING: The Python sqlite3 extension was not compiled. Missing the SQLite3 lib?
+Installed Python-3.8.19 to /home/sukjun/.pyenv/versions/3.8.19
+```
+
+위의 에러에서는 libffi 와 SQLite3 라이브러리가 없어서 아래와 같이 별도로 설치한 뒤에 다시 파이썬을 설치하였다.
+
+```
+sudo apt-get install -y libffi-dev libsqlite3-dev
+```
