@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PyCharm 에서 원격 인터프리터 사용하기"
+title: "PyCharm: 원격 인터프리터 사용하기"
 image: /images/2018-11-26/cover.svg
 description: >
   로컬 컴퓨터에 설치된 PyCharm 개발 환경에서 원격 서버에 설치된 파이썬을 인터프리터로 설정하여 사용하는 방법을

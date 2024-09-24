@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PyCharm 설정: 템플릿 폴더 적용하기"
+title: "PyCharm: HTML 템플릿 폴더 적용하기"
 image: /images/2018-11-29/cover.svg
 description: >
   Flask를 이용한 개발 진행에서 HTML template 파일들을 담고 있는 폴더를 PyCharm에게 알려주어 더 편리한 개발 환경을
