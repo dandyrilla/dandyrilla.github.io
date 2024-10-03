@@ -7,6 +7,8 @@ share: true
 comments: true
 ---
 
+# Windows 에서 git 설치하기
+
 윈도우에서 git을 설치하는 순서: 대부분 많은 것을 건드리지 않고 Next를 누르면 된다.
 
 ![Image](/images/git_inst_step1.png?v1 "git install step 1"){: .center-image}
@@ -30,3 +32,8 @@ comments: true
 ![Image](/images/git_inst_step10.png?v1 "git install step 10"){: .center-image}
 
 ![Image](/images/git_inst_step11.png?v1 "git install step 11"){: .center-image}
+
+
+# Mac OS 에서 git 설치하기
+
+...
