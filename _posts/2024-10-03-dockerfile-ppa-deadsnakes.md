@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ubuntu 에서 Python 설치를 위해 PPA 저장소를 추가해주어야 하는 이유"
+title: "Python 설치를 위한 우분투 PPA 저장소 추가"
 description: 
 tags: [docker, ubuntu, ppa]
 comments: true
